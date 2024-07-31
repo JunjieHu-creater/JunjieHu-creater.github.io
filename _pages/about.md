@@ -10,7 +10,7 @@ redirect_from:
 
 Hi, I'm Junjie Hu. I'm a second year master student from [School of Transport&Transportation Engineering](https://stte.csu.edu.cn/), [Central South University](https://www.csu.edu.cn/). My research interest includes traffic spatio-temporal data analysis, explainable AI,deep learning and traffic safety.
 
-I am very fortunate to be advised by [Prof. Jaeyoung Jay Lee]([https://www.XXX.com/](https://www.researchgate.net/profile/Jaeyoung-Lee-26)) of Spirit Lab from [School of Transport&Transportation Engineering](https://cs.pku.edu.cn/), Central South University. He is among the top 2% of scientists worldwide working on road safety.
+I am very fortunate to be advised by [Prof. Jaeyoung Jay Lee]([https://www.XXX.com/](https://www.researchgate.net/profile/Jaeyoung-Lee-26)) of Spirit Lab from [School of Transport&Transportation Engineering, Central South University](https://stte.csu.edu.cn/). He is among the top 2% of scientists worldwide working on road safety.
 
 You can find my CV here: [Junjiehu](../assets/JunjieHu_CV.pdf).
 
@@ -42,6 +42,6 @@ Experience
 ### Internship
 
 - **Business Risk Modeling Intern**  
-  *Magic Engine, Shenzhen*  
+  *Magic Engine, Shenzhen*[] (http://www.magicengine.com.cn/) 
   July 2024 - September 2024  
   Worked on bank business risk modeling.
