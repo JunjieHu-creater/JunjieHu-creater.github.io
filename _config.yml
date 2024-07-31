@@ -7,12 +7,12 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "China"
-title                    : "Academic Introduction"
+locale                   : "en-US"
+title                    : "Junjie Hu / Personal Homepage"
 title_separator          : "-"
-name                     : &name "Junjiehu"
-description              : &description "A second year master student in school of transport&transportation"
-url                      :https://junjiehu-creater.github.io/
+name                     : &name "Junjie Hu"
+description              : &description "A second year master student from Central South University"
+url                      : https://junjiehu-creater.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "junjiehu-creater/junjiehu-creater.github.io"
 
@@ -22,17 +22,21 @@ repository               : "junjiehu-creater/junjiehu-creater.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Junjie Hu"
+  pronouns         : # example: "she/her"  
   bio              : "A second year master student in school of transport&transportation"
   location         : "Changsha Hunan 410075 P.R. China"
   employer         : "Central South University"
-  uri              : https://junjiehu-creater.github.io/
+  uri              : "https://junjiehu-creater.github.io"
   email            : "junjiehu1@outlook.com" 
 
   # Academic websites
-
+  arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=2Irk2E4AAAAJ"
+  impactstory      : # URL
   orcid            : "https://orcid.org/0009-0009-7206-2693"
+  semantic         : # URL
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : "https://www.researchgate.net/profile/Junjie-Hu-25"
 
   # Repositories and software development
