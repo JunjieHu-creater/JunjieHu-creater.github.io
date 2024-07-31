@@ -1,0 +1,25 @@
+
+/* CSS styles for different background colors */
+.bg-blue {
+  background-color: #cce5ff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.bg-green {
+  background-color: #d4edda;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.bg-yellow {
+  background-color: #fff3cd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.bg-red {
+  background-color: #f8d7da;
+  padding: 10px;
+  border-radius: 5px;
+}
