@@ -10,7 +10,7 @@ redirect_from:
 
 Hi, I'm Junjie Hu. I'm a second year master student from [School of Transport&Transportation Engineering](https://stte.csu.edu.cn/), [Central South University](https://www.csu.edu.cn/). My research interest includes traffic spatio-temporal data analysis, explainable AI,deep learning and traffic safety.
 
-I am very fortunate to be advised by [Prof. Jaeyoung Jay Lee](https://www.researchgate.net/profile/Jaeyoung-Lee-26) of Spirit Lab from [School of Transport&Transportation Engineering, Central South University](https://stte.csu.edu.cn/). He is among the top 2% of scientists worldwide working on road safety.
+I am very fortunate to be advised by [Prof. Jaeyoung Jay Lee](https://www.researchgate.net/profile/Jaeyoung-Lee-26) of Spirit Lab from School of Transport&Transportation Engineering, Central South University. He is among the top 2% of scientists worldwide working on road safety.
 
 Feel free to contact me at [Email](mailto:junjie_hu@csu.edu.cn) /[Wechat](../images/wechat.jpg). I am eagerly looking forward to collaborating and exchanging ideas with other researchers to advance our collective research efforts.
 
