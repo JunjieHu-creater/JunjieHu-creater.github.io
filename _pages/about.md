@@ -12,9 +12,9 @@ Hi, I'm Junjie Hu. I'm a second year master student from [School of Transport&Tr
 
 I am very fortunate to be advised by [Prof. Jaeyoung Jay Lee](https://www.researchgate.net/profile/Jaeyoung-Lee-26) of Spirit Lab from [School of Transport&Transportation Engineering, Central South University](https://stte.csu.edu.cn/). He is among the top 2% of scientists worldwide working on road safety.
 
-You can find my CV here: [Junjiehu](../assets/JunjieHu_CV.pdf).
+Feel free to contact me at [Email](mailto:junjie_hu@csu.edu.cn) /[Wechat](../images/wechat.jpg).I am eagerly looking forward to collaborating and exchanging ideas with other researchers to advance our collective research efforts.
 
-Feel free to contact me at [Email](mailto:junjie_hu@csu.edu.cn) /[Wechat](../images/wechat.jpg) 
+You can find my CV here: [CV](../assets/JunjieHu_CV.pdf).
 
 Publications
 ======
