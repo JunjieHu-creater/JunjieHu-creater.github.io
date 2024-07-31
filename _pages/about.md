@@ -16,16 +16,6 @@ Feel free to contact me at [Email](mailto:junjie_hu@csu.edu.cn) /[Wechat](../ima
 
 You can find my CV here: [CV](../assets/JunjieHu_CV.pdf).
 
-Publications
-======
-
-- **Hu, J., Hu, C., Yang, J., Bai, J., & Lee, J. J.**, Do traffic flow states follow Markov properties? Ahigh-order spatiotemporal traffic state reconstruction approach for traffic prediction and imputation, *Chaos, Solitons, and Fractals*, 183(114965), 11, 2024.
-  
-- **J. Hu, J. Bai, J. Yang, and J. Lee**, Crash Risk Prediction Using Sparse Collision Data: Causal Inference and Graph Convolutional Networks Approaches, *Expert Systems with Applications* (JCR Q1), Available at SSRN: [https://ssrn.com/abstract=4558734](https://ssrn.com/abstract=4558734) or [http://dx.doi.org/10.2139/ssrn.4558734](http://dx.doi.org/10.2139/ssrn.4558734).
-
-- **J. Hu, Zhang, J. Bai, and J. Lee**, Unraveling the Dynamic Rules of Urban Traffic Crashes: Tucker-Net Based SIRS Model, Available at SSRN: [https://ssrn.com/abstract=4697054](https://ssrn.com/abstract=4697054) or [http://dx.doi.org/10.2139/ssrn.4697054](http://dx.doi.org/10.2139/ssrn.4697054).
-
-- **Yang, J., Lee, J., Mao, S., & Hu, J.**, Dynamic safety estimation of airport pick-up area based on video trajectory data, *IEEE Transactions on Intelligent Transportation Systems: A Publication of the IEEE Intelligent Transportation Systems Council*, 25(2), 1774–1786, 2024.
 
 Experience
 ======
@@ -45,3 +35,15 @@ Experience
   [*Magic Engine, Shenzhen*](http://www.magicengine.com.cn/)
   <br> July 2024 - September 2024 
  <br>  Worked on bank business risk modeling.
+
+Publications
+======
+
+- **Hu, J., Hu, C., Yang, J., Bai, J., & Lee, J. J.**, Do traffic flow states follow Markov properties? Ahigh-order spatiotemporal traffic state reconstruction approach for traffic prediction and imputation, *Chaos, Solitons, and Fractals*, 183(114965), 11, 2024.
+- In this work, I have designed a high order traffic state reconstruction method, which demonstrates the Markov property of traffic flow. By using the Markov matrix as prior knowledge, the high-accuracy traffic imputation tasks is performed employing auto-encoder framework .
+  
+- **J. Hu, J. Bai, J. Yang, and J. Lee**, Crash Risk Prediction Using Sparse Collision Data: Causal Inference and Graph Convolutional Networks Approaches, *Expert Systems with Applications* (JCR Q1), Available at SSRN: [https://ssrn.com/abstract=4558734](https://ssrn.com/abstract=4558734) or [http://dx.doi.org/10.2139/ssrn.4558734](http://dx.doi.org/10.2139/ssrn.4558734).
+
+- **J. Hu, Zhang, J. Bai, and J. Lee**, Unraveling the Dynamic Rules of Urban Traffic Crashes: Tucker-Net Based SIRS Model, Available at SSRN: [https://ssrn.com/abstract=4697054](https://ssrn.com/abstract=4697054) or [http://dx.doi.org/10.2139/ssrn.4697054](http://dx.doi.org/10.2139/ssrn.4697054).
+
+- **Yang, J., Lee, J., Mao, S., & Hu, J.**, Dynamic safety estimation of airport pick-up area based on video trajectory data, *IEEE Transactions on Intelligent Transportation Systems: A Publication of the IEEE Intelligent Transportation Systems Council*, 25(2), 1774–1786, 2024.
