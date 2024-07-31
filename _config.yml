@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Junjie Hu"
   pronouns         : # example: "she/her"  
-  bio              : "A second year master student in school of transport&transportation"
+  bio              : "A second year master student "
   location         : "Changsha Hunan 410075 P.R. China"
   employer         : "Central South University"
   uri              : "https://junjiehu-creater.github.io"
@@ -36,7 +36,7 @@ author:
   impactstory      : # URL
   orcid            : "https://orcid.org/0009-0009-7206-2693"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : "https://www.researchgate.net/profile/Junjie-Hu-25"
 
   # Repositories and software development
