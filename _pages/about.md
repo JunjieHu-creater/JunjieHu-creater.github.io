@@ -25,4 +25,23 @@ Publications
 
 - **J. Hu, Zhang, J. Bai, and J. Lee**, Unraveling the Dynamic Rules of Urban Traffic Crashes: Tucker-Net Based SIRS Model, Available at SSRN: [https://ssrn.com/abstract=4697054](https://ssrn.com/abstract=4697054) or [http://dx.doi.org/10.2139/ssrn.4697054](http://dx.doi.org/10.2139/ssrn.4697054).
 
-- **Yang, J., Lee, J., Mao, S., & Hu, J.**, Dynamic safety estimation of airport pick-up area based on video trajectory data, *IEEE Transactions on Intelligent Transportation Systems: A Publication of the IEEE Intelligent Transportation Systems Council*, 25(2), 1774–1786, 2024. [https://doi.org/10.1109/tits.2023.3316199](https://doi.org/10.1109/tits.2023.3316199).
+- **Yang, J., Lee, J., Mao, S., & Hu, J.**, Dynamic safety estimation of airport pick-up area based on video trajectory data, *IEEE Transactions on Intelligent Transportation Systems: A Publication of the IEEE Intelligent Transportation Systems Council*, 25(2), 1774–1786, 2024.
+
+Experience
+======
+### Education
+
+- **Bachelor of Logistics Engineering**  
+  *School of Transportation Engineering, Central South University*  
+  September 2019 - June 2023
+
+- **Master's Student in Transportation Engineering**  
+  *School of Transportation Engineering, Central South University*  
+  September 2023 - Present
+
+### Internship
+
+- **Business Risk Modeling Intern**  
+  *Magic Engine, Shenzhen*  
+  July 2024 - September 2024  
+  Worked on bank business risk modeling.
