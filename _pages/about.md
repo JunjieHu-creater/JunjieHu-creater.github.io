@@ -42,6 +42,6 @@ Experience
 ### Internship
 
 - **Business Risk Modeling Intern**  
-  *Magic Engine, Shenzhen*[] (http://www.magicengine.com.cn/) 
+  *Magic Engine, Shenzhen*[site](http://www.magicengine.com.cn/) 
   July 2024 - September 2024  
   Worked on bank business risk modeling.
