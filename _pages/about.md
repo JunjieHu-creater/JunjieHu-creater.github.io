@@ -39,16 +39,16 @@ Experience
 Publications
 ======
 
-- **Hu, J., Hu, C., Yang, J., Bai, J., & Lee, J. J.**, Do traffic flow states follow Markov properties? Ahigh-order spatiotemporal traffic state reconstruction approach for traffic prediction and imputation, *Chaos, Solitons, and Fractals*, 183(114965), 11, 2024.
+- **Hu, J.**, Hu, C., Yang, J., Bai, J., & Lee, J. J., Do traffic flow states follow Markov properties? Ahigh-order spatiotemporal traffic state reconstruction approach for traffic prediction and imputation, *Chaos, Solitons, and Fractals*, 183(114965), 11, 2024.
 <br>**In this work**<em>, I have designed a high order traffic state reconstruction method, which demonstrates the Markov property of traffic flow. Based on the prior knowledge obtained by Markov matrix, the high-accuracy traffic imputation tasks was performed employing auto-encoder framework.</em>
 
 
-- **J. Hu, J. Bai, J. Yang, and J. Lee**, Crash Risk Prediction Using Sparse Collision Data: Causal Inference and Graph Convolutional Networks Approaches,  Available at SSRN: [https://ssrn.com/abstract=4558734](https://ssrn.com/abstract=4558734) or [http://dx.doi.org/10.2139/ssrn.4558734](http://dx.doi.org/10.2139/ssrn.4558734).
+- **J. Hu**, J. Bai, J. Yang, and J. Lee, Crash Risk Prediction Using Sparse Collision Data: Causal Inference and Graph Convolutional Networks Approaches,  Available at SSRN: [https://ssrn.com/abstract=4558734](https://ssrn.com/abstract=4558734) or [http://dx.doi.org/10.2139/ssrn.4558734](http://dx.doi.org/10.2139/ssrn.4558734).
 <br>**In this work**<em>, I have created a crash data enhancement strategy utilizing historic priori spatial and temporal knowledge, and developed a a novel method, Priori Spatial and Temporal Casual Graph Convolutional Network (PST-CGCN) for predicting crash risk based on causal inference and graph convolutional network.</em>
 
-- **J. Hu, Zhang, J. Bai, and J. Lee**, Unraveling the Dynamic Rules of Urban Traffic Crashes: Tucker-Net Based SIRS Model, Available at SSRN: [https://ssrn.com/abstract=4697054](https://ssrn.com/abstract=4697054) or [http://dx.doi.org/10.2139/ssrn.4697054](http://dx.doi.org/10.2139/ssrn.4697054).
+- **J. Hu**, Zhang, J. Bai, and J. Lee, Unraveling the Dynamic Rules of Urban Traffic Crashes: Tucker-Net Based SIRS Model, Available at SSRN: [https://ssrn.com/abstract=4697054](https://ssrn.com/abstract=4697054) or [http://dx.doi.org/10.2139/ssrn.4697054](http://dx.doi.org/10.2139/ssrn.4697054).
 <br>**In this work**<em>, I have designed a new data-driven and transferable analysis model: the Tucker-Net based 
 Susceptible-Infectious-Recovered-Susceptible (SIRS) model (TNBSM) for exploring the dynamic correlations within crash zones based on the tensor decomposition technology and SIRS model.</em>
 
-- **Yang, J., Lee, J., Mao, S., & Hu, J.**, Dynamic safety estimation of airport pick-up area based on video trajectory data, *IEEE Transactions on Intelligent Transportation Systems: A Publication of the IEEE Intelligent Transportation Systems Council*, 25(2), 1774–1786, 2024.
+- Yang, J., Lee, J., Mao, S., & **Hu, J.**, Dynamic safety estimation of airport pick-up area based on video trajectory data, *IEEE Transactions on Intelligent Transportation Systems: A Publication of the IEEE Intelligent Transportation Systems Council*, 25(2), 1774–1786, 2024.
 <br>**In this work**<em>, I have assisted in the design of a modified CUSBoost algorithm for imbalanced trajectory data classification based on four risk indicators and spatial distribution. </em>
