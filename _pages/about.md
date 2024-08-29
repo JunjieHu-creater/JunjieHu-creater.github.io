@@ -8,11 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm Junjie Hu. I'm a second-year master's student from [School of Transport&Transportation Engineering](https://stte.csu.edu.cn/), [Central South University](https://www.csu.edu.cn/). My research interest includes traffic spatio-temporal data analysis, explainable AI, deep learning and traffic safety.
+Hi, I'm Junjie Hu. I'm a second-year master's student from [School of Transport&Transportation Engineering](https://stte.csu.edu.cn/), [Central South University](https://www.csu.edu.cn/).  I am advised by [Prof. Jaeyoung Jay Lee](https://www.researchgate.net/profile/Jaeyoung-Lee-26) of Spirit Lab from School of Transport&Transportation Engineering, Central South University. He is among the top 2% of scientists worldwide working on road safety.
 
-I am advised by [Prof. Jaeyoung Jay Lee](https://www.researchgate.net/profile/Jaeyoung-Lee-26) of Spirit Lab from School of Transport&Transportation Engineering, Central South University. He is among the top 2% of scientists worldwide working on road safety.
-
-Feel free to contact me at [Email](mailto:junjie_hu@csu.edu.cn) /[Wechat](../images/wechat.jpg). I am eagerly looking forward to collaborating and exchanging ideas with other researchers to advance our collective research efforts.
+My research interest includes traffic spatio-temporal data analysis, explainable AI, deep learning and traffic safety. I am fascinated by the challenges and opportunities in analyzing large-scale, high-dimensional traffic data to uncover patterns and insights that can lead to more efficient and sustainable transportation systems, which gives me a strong sense of self motivation. I am eagerly looking forward to collaborating and exchanging ideas with other researchers to advance our collective research efforts. Feel free to contact me at [Email](mailto:junjie_hu@csu.edu.cn) /[Wechat](../images/wechat.jpg). 
 
 You can find my CV here: [CV](../assets/JunjieHu_CV.pdf).
 
