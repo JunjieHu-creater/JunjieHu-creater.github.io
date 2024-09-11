@@ -41,7 +41,7 @@ Publications
 <br>**In this work**<em>, I have designed a high order traffic state reconstruction method, which demonstrates the Markov property of traffic flow. Based on the prior knowledge obtained by Markov matrix, the high-accuracy traffic imputation tasks was performed employing auto-encoder framework.</em>
 
 
-- **J. Hu**, J. Bai, J. Yang, and J. Lee, Crash Risk Prediction Using Sparse Collision Data: Causal Inference and Graph Convolutional Networks Approaches,  Available at SSRN: [https://ssrn.com/abstract=4558734](https://ssrn.com/abstract=4558734) or [http://dx.doi.org/10.2139/ssrn.4558734](http://dx.doi.org/10.2139/ssrn.4558734).
+- **J. Hu**, J. Bai, J. Yang, and J. Lee, Crash Risk Prediction Using Sparse Collision Data: Causal Inference and Graph Convolutional Networks Approaches, *Expert Systems with Applications*, 125315. https://doi.org/10.1016/j.eswa.2024.125315,2024.
 <br>**In this work**<em>, I have created a crash data enhancement strategy utilizing historic priori spatial and temporal knowledge, and developed a a novel method, Priori Spatial and Temporal Casual Graph Convolutional Network (PST-CGCN) for predicting crash risk based on causal inference and graph convolutional network.</em>
 
 - **J. Hu**, Zhang, J. Bai, and J. Lee, Unraveling the Dynamic Rules of Urban Traffic Crashes: Tucker-Net Based SIRS Model, Available at SSRN: [https://ssrn.com/abstract=4697054](https://ssrn.com/abstract=4697054) or [http://dx.doi.org/10.2139/ssrn.4697054](http://dx.doi.org/10.2139/ssrn.4697054).
