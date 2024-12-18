@@ -48,5 +48,11 @@ Publications
 <br>**In this work**<em>, I have designed a new data-driven and transferable analysis model: the Tucker-Net based 
 Susceptible-Infectious-Recovered-Susceptible (SIRS) model (TNBSM) for exploring the dynamic correlations within crash zones based on the tensor decomposition technology and SIRS model.</em>
 
+- **J. Hu**,  J. Lee, Car following dynamics in mixed traffic flow of autonomous and human-driven vehicles: complex networks approach, Under review.
+<br>**In this work**<em>, I have applied coarse-grained phase space algorithm, introduced complex network technology into vehicle following behavior analysis, and revealed the characteristics and differences between autonomous vehicle (AV) and manual vehicle (HV).</em>
+
+- **J. Hu**,  J. Bai, and J. Lee, Simplified and Efficient KNN-Based Method for High-Resolution Traffic Time Space Diagram Imputation， Under review.
+<br>**In this work**<em>, I have  proposed a modified framework based on the K-Nearest Neighbors (KNN) method, which reconstructs and imputes TSD with sparse data by matching similar spatiotemporal neighborhood features created by Queen Contiguity Spatial Rule. </em>
+
 - Yang, J., Lee, J., Mao, S., & **Hu, J.**, Dynamic safety estimation of airport pick-up area based on video trajectory data, *IEEE Transactions on Intelligent Transportation Systems: A Publication of the IEEE Intelligent Transportation Systems Council*, 25(2), 1774–1786, 2024.
 <br>**In this work**<em>, I have assisted in the design of a modified CUSBoost algorithm for imbalanced trajectory data classification based on four risk indicators and spatial distribution. </em>
