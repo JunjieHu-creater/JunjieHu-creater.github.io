@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-👋 Hello! I'm **Junjie Hu (胡俊杰)**, a second-year Master's student at the [School of Transport & Transportation Engineering](https://stte.csu.edu.cn/) (STTE), [Central South University](https://www.csu.edu.cn/) (CSU). I have the distinct honor of being advised by [Prof. Jaeyoung Jay Lee](https://www.researchgate.net/profile/Jaeyoung-Lee-26), a distinguished researcher recognized among the top 2% of scientists globally in road safety.
+👋 Hello! I'm **Junjie Hu (胡俊杰)**, a second-year Master's student at the [School of Transport & Transportation Engineering](https://stte.csu.edu.cn/), [Central South University](https://www.csu.edu.cn/) (CSU). I have the distinct honor of being advised by [Prof. Jaeyoung Jay Lee](https://www.researchgate.net/profile/Jaeyoung-Lee-26), a distinguished researcher recognized among the top 2% of scientists globally in road safety.
 
 🚀 My research passion lies at the dynamic intersection of:
 * Traffic Spatio-Temporal Data Analysis
