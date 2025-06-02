@@ -20,8 +20,8 @@ I am profoundly motivated by the challenges and opportunities in analyzing large
 
 🔗 **Connect & Explore:**
 * **Email:** [junjie_hu@csu.edu.cn](mailto:junjie_hu@csu.edu.cn)
-* **WeChat:** [Scan QR Code](../images/wechat.jpg) (Please ensure this path is correct for your website structure)
-* **Curriculum Vitae:** [Download My CV](../assets/JunjieHu_CV.pdf) (Please ensure this path is correct)
+* **WeChat:** [Scan QR Code](../images/wechat.jpg) 
+* **Curriculum Vitae:** [Download My CV](../assets/JunjieHu_CV.pdf) 
 
 Experience 💼
 ======
