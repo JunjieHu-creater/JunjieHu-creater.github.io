@@ -48,29 +48,63 @@ Publications 📄
 ======
 *(Names in **bold** indicate my authorship)*
 
--   **Hu, J.**, Hu, C., Yang, J., Bai, J., & Lee, J. J. (2024). Do traffic flow states follow Markov properties? A high-order spatiotemporal traffic state reconstruction approach for traffic prediction and imputation. *Chaos, Solitons, and Fractals*, 183, 114965. [https://doi.org/10.1016/j.chaos.2024.114965](https://doi.org/10.1016/j.chaos.2024.114965)
-    <br>📝 **Contribution:** <em>Designed a high-order traffic state reconstruction method demonstrating traffic flow's Markov property. Leveraged Markov matrix prior knowledge for high-accuracy traffic imputation tasks using an auto-encoder framework.</em>
+- <span style="display: inline-block; width: 22px; height: 22px; line-height: 23px; text-align: center; color: white; background-color: #4183C4; border-radius: 50%; font-weight: bold; margin-right: 10px;">1</span> **Hu, J.**, Hu, C., Yang, J., Bai, J., & Lee, J. J. (2024). Do traffic flow states follow Markov properties? A high-order spatiotemporal traffic state reconstruction approach for traffic prediction and imputation. *Chaos, Solitons, and Fractals*, 183, 114965. [https://doi.org/10.1016/j.chaos.2024.114965](https://doi.org/10.1016/j.chaos.2024.114965)
+    <details>
+    <summary>📝 <b>Contribution (Click to expand)</b></summary>
+    <em>Designed a high-order traffic state reconstruction method demonstrating traffic flow's Markov property. Leveraged Markov matrix prior knowledge for high-accuracy traffic imputation tasks using an auto-encoder framework.</em>
+    </details>
 
--   **Hu, J.**, Bai, J., Yang, J., & Lee, J. (2024). Crash Risk Prediction Using Sparse Collision Data: Causal Inference and Graph Convolutional Networks Approaches. *Expert Systems with Applications*, 248, 125315. [https://doi.org/10.1016/j.eswa.2024.125315](https://doi.org/10.1016/j.eswa.2024.125315)
-    <br>📝 **Contribution:** <em>Created a crash data enhancement strategy utilizing historic priori spatial and temporal knowledge. Developed a novel method, Priori Spatial and Temporal Causal Graph Convolutional Network (PST-CGCN), for predicting crash risk based on causal inference and graph convolutional networks.</em>
+- <span style="display: inline-block; width: 22px; height: 22px; line-height: 23px; text-align: center; color: white; background-color: #4183C4; border-radius: 50%; font-weight: bold; margin-right: 10px;">2</span> **Hu, J.**, Bai, J., Yang, J., & Lee, J. (2024). Crash Risk Prediction Using Sparse Collision Data: Causal Inference and Graph Convolutional Networks Approaches. *Expert Systems with Applications*, 248, 125315. [https://doi.org/10.1016/j.eswa.2024.125315](https://doi.org/10.1016/j.eswa.2024.125315)
+    <details>
+    <summary>📝 <b>Contribution (Click to expand)</b></summary>
+    <em>Created a crash data enhancement strategy utilizing historic priori spatial and temporal knowledge. Developed a novel method, Priori Spatial and Temporal Causal Graph Convolutional Network (PST-CGCN), for predicting crash risk based on causal inference and graph convolutional networks.</em>
+    </details>
 
--   **Hu, J.**, Zhang, J., Bai, J., & Lee, J. Unraveling the Dynamic Rules of Urban Traffic Crashes: Tucker-Net Based SIRS Model. *Preprint available at SSRN*: [https://ssrn.com/abstract=4697054](https://ssrn.com/abstract=4697054) or [http://dx.doi.org/10.2139/ssrn.4697054](http://dx.doi.org/10.2139/ssrn.4697054)
-    <br>📝 **Contribution:** <em>Designed a new data-driven and transferable analysis model, the Tucker-Net based Susceptible-Infectious-Recovered-Susceptible (SIRS) model (TNBSM), for exploring dynamic correlations within crash zones using tensor decomposition and the SIRS model.</em>
+- <span style="display: inline-block; width: 22px; height: 22px; line-height: 23px; text-align: center; color: white; background-color: #4183C4; border-radius: 50%; font-weight: bold; margin-right: 10px;">3</span> **Hu, J.**, Zhang, J., Bai, J., & Lee, J. Unraveling the Dynamic Rules of Urban Traffic Crashes: Tucker-Net Based SIRS Model. *Preprint available at SSRN*: [https://ssrn.com/abstract=4697054](https://ssrn.com/abstract=4697054) or [http://dx.doi.org/10.2139/ssrn.4697054](http://dx.doi.org/10.2139/ssrn.4697054)
+    <details>
+    <summary>📝 <b>Contribution (Click to expand)</b></summary>
+    <em>Designed a new data-driven and transferable analysis model, the Tucker-Net based Susceptible-Infectious-Recovered-Susceptible (SIRS) model (TNBSM), for exploring dynamic correlations within crash zones using tensor decomposition and the SIRS model.</em>
+    </details>
 
--   **Hu, J.**, & Lee, J. (2025). Car following dynamics in mixed traffic flow of autonomous and human-driven vehicles: complex networks approach. *Physica A: Statistical Mechanics and its Applications*, 665, 130519. [https://doi.org/10.1016/j.physa.2025.130519](https://doi.org/10.1016/j.physa.2025.130519)
-    <br>📝 **Contribution:** <em>Applied a coarse-grained phase space algorithm, introduced complex network technology into vehicle-following behavior analysis, and revealed distinct characteristics and differences between autonomous vehicles (AV) and human-driven vehicles (HV).</em>
+- <span style="display: inline-block; width: 22px; height: 22px; line-height: 23px; text-align: center; color: white; background-color: #4183C4; border-radius: 50%; font-weight: bold; margin-right: 10px;">4</span> **Hu, J.**, & Lee, J. (2025). Car following dynamics in mixed traffic flow of autonomous and human-driven vehicles: complex networks approach. *Physica A: Statistical Mechanics and its Applications*, 665, 130519. [https://doi.org/10.1016/j.physa.2025.130519](https://doi.org/10.1016/j.physa.2025.130519)
+    <details>
+    <summary>📝 <b>Contribution (Click to expand)</b></summary>
+    <em>Applied a coarse-grained phase space algorithm, introduced complex network technology into vehicle-following behavior analysis, and revealed distinct characteristics and differences between autonomous vehicles (AV) and human-driven vehicles (HV).</em>
+    </details>
 
--   **Hu, J.**, Bai, J., & Lee, J. Simplified and Efficient KNN-Based Method for High-Resolution Traffic Time-Space Diagram Imputation. *Manuscript under review*.
-    <br>📝 **Contribution:** <em>Proposed a modified K-Nearest Neighbors (KNN) framework for reconstructing and imputing Time-Space Diagrams (TSD) from sparse data by matching similar spatiotemporal neighborhood features defined by Queen Contiguity Spatial Rule.</em>
+- <span style="display: inline-block; width: 22px; height: 22px; line-height: 23px; text-align: center; color: white; background-color: #4183C4; border-radius: 50%; font-weight: bold; margin-right: 10px;">5</span> **Hu, J.**, Bai, J., & Lee, J. Simplified and Efficient KNN-Based Method for High-Resolution Traffic Time-Space Diagram Imputation. *Manuscript under review*.
+    <details>
+    <summary>📝 <b>Contribution (Click to expand)</b></summary>
+    <em>Proposed a modified K-Nearest Neighbors (KNN) framework for reconstructing and imputing Time-Space Diagrams (TSD) from sparse data by matching similar spatiotemporal neighborhood features defined by Queen Contiguity Spatial Rule.</em>
+    </details>
 
--   **Hu, J.**, Gao, D., Hu, C., Zhou, H., & Lee, J. Rethinking driving style recognition: A prediction error-based driving behavior modeling. *Manuscript under review*.
-    <br>📝 **Contribution:** <em>Revisited an end-to-end approach for driving style recognition by exploring driver behavior heterogeneity through trajectory prediction model errors. Utilized spatial attention and convolutional social pooling to learn interdependencies in vehicle motion and introduced a multi-modal distribution for future trajectories based on driving style.</em>
+- <span style="display: inline-block; width: 22px; height: 22px; line-height: 23px; text-align: center; color: white; background-color: #4183C4; border-radius: 50%; font-weight: bold; margin-right: 10px;">6</span> **Hu, J.**, Gao, D., Hu, C., Zhou, H., & Lee, J. Rethinking driving style recognition: A prediction error-based driving behavior modeling. *Manuscript under review*.
+    <details>
+    <summary>📝 <b>Contribution (Click to expand)</b></summary>
+    <em>Revisited an end-to-end approach for driving style recognition by exploring driver behavior heterogeneity through trajectory prediction model errors. Utilized spatial attention and convolutional social pooling to learn interdependencies in vehicle motion and introduced a multi-modal distribution for future trajectories based on driving style.</em>
+    </details>
 
--   **Hu, J.**, Gao, D., Lee, J., & Wang, L. Vehicle dynamics analytics based on complex network techniques: a trajectory-based visibility graph approach. *Manuscript under review*.
-    <br>📝 **Contribution:** <em>Introduced an adaptive trajectory-based visibility graph (TVG) framework, a novel method for dissecting vehicle dynamics by transforming planar trajectory data into complex networks. This framework features a tunable visibility tolerance coefficient, dynamically scaled by lateral displacement, enabling the TVG to capture geometric occlusions and maneuver-specific spatial scales.</em>
+- <span style="display: inline-block; width: 22px; height: 22px; line-height: 23px; text-align: center; color: white; background-color: #4183C4; border-radius: 50%; font-weight: bold; margin-right: 10px;">7</span> **Hu, J.**, Gao, D., Lee, J., & Wang, L. Vehicle dynamics analytics based on complex network techniques: a trajectory-based visibility graph approach. *Manuscript under review*.
+    <details>
+    <summary>📝 <b>Contribution (Click to expand)</b></summary>
+    <em>Introduced an adaptive trajectory-based visibility graph (TVG) framework, a novel method for dissecting vehicle dynamics by transforming planar trajectory data into complex networks. This framework features a tunable visibility tolerance coefficient, dynamically scaled by lateral displacement, enabling the TVG to capture geometric occlusions and maneuver-specific spatial scales.</em>
+    </details>
 
--   Yang, J., Lee, J., Mao, S., & **Hu, J.** (2024). Dynamic safety estimation of airport pick-up area based on video trajectory data. *IEEE Transactions on Intelligent Transportation Systems*, 25(2), 1774–1786. [https://doi.org/10.1109/TITS.2023.3275986](https://doi.org/10.1109/TITS.2023.3275986)
-    <br>📝 **My Role:** <em>Assisted in designing a modified CUSBoost algorithm for imbalanced trajectory data classification, leveraging four risk indicators and spatial distribution analysis.</em>
+- <span style="display: inline-block; width: 22px; height: 22px; line-height: 23px; text-align: center; color: white; background-color: #4183C4; border-radius: 50%; font-weight: bold; margin-right: 10px;">8</span> **Hu, J.**, Lee, J., & Wang, L. Re-examining the Explanatory Boundaries of Car-Following Models: From a Systematic Decomposition of Fitting Errors to the Revelation of Adaptive Feedback Mechanisms. *Manuscript under review*.
+    <details>
+    <summary>📝 <b>Contribution (Click to expand)</b></summary>
+    <em>Posited that residuals of car-following (cf) model are a composite of structural errors and random error and utilized an Unobserved Components Model to decompose the residual series from three calibrated CF models.</em>
+    </details>
+- <span style="display: inline-block; width: 22px; height: 22px; line-height: 23px; text-align: center; color: white; background-color: #4183C4; border-radius: 50%; font-weight: bold; margin-right: 10px;">9</span> Yang, J., Lee, J., Mao, S., & **Hu, J.** (2024). Dynamic safety estimation of airport pick-up area based on video trajectory data. *IEEE Transactions on Intelligent Transportation Systems*, 25(2), 1774–1786. [https://doi.org/10.1109/TITS.2023.3275986](https://doi.org/10.1109/TITS.2023.3275986)
+    <details>
+    <summary>📝 <b>My Role (Click to expand)</b></summary>
+    <em>Assisted in designing a modified CUSBoost algorithm for imbalanced trajectory data classification, leveraging four risk indicators and spatial distribution analysis.</em>
+    </details>
 
--   Wang, L., **Hu, J.**, Yang, Y., & Lee, J. Analysis of injury severity of single-vehicle and two-vehicle crashes with lightweight vehicles (kei cars) in Japan: A random parameters approach with heterogeneity in means. *Manuscript under review*.
-    <br>📝 **My Role:** <em>Contributed to investigating K-car crash injury severity using a random parameters probit model with heterogeneity in means. Designed an out-of-sample prediction approach to clarify heterogeneity among various crash severity mechanisms.</em>
+- <span style="display: inline-block; width: 22px; height: 22px; line-height: 23px; text-align: center; color: white; background-color: #4183C4; border-radius: 50%; font-weight: bold; margin-right: 10px;">10</span> Wang, L., **Hu, J.**, Yang, Y., & Lee, J. Analysis of injury severity of single-vehicle and two-vehicle crashes with lightweight vehicles (kei cars) in Japan: A random parameters approach with heterogeneity in means. *Manuscript under review*.
+    <details>
+    <summary>📝 <b>My Role (Click to expand)</b></summary>
+    <em>Contributed to investigating K-car crash injury severity using a random parameters probit model with heterogeneity in means. Designed an out-of-sample prediction approach to clarify heterogeneity among various crash severity mechanisms.</em>
+    </details>
+
+   
