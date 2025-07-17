@@ -40,9 +40,11 @@ Experience 💼
 ### Internship
 
 -   **Business Risk Modeling Intern**
-    *[*Magic Engine Technology Co., Ltd.*](http://www.magicengine.com.cn/), Shenzhen, China*
-    <br> *July 2024 - September 2024 (Anticipated)*
-    <br> Focus: Development and analysis of bank business risk models.
+    * *Magic Engine Technology Co., Ltd., Shenzhen, China*
+    * *July 2024 - September 2024 (Anticipated)*
+    * Assisted in developing and validating credit risk models for bank partners using Python (Pandas, Scikit-learn).
+    * Responsible for pre-processing large-scale transaction data and performing feature engineering to improve model accuracy.
+    * Contributed to a risk analysis report that provided data-driven insights for business strategy.
 
 Publications 📄
 ======
