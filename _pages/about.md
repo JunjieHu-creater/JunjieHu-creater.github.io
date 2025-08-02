@@ -62,7 +62,8 @@ Publications 📄
     <em>Created a crash data enhancement strategy utilizing historic priori spatial and temporal knowledge. Developed a novel method, Priori Spatial and Temporal Causal Graph Convolutional Network (PST-CGCN), for predicting crash risk based on causal inference and graph convolutional networks.</em>
     </details>
 
-- <span style="display: inline-block; width: 22px; height: 22px; line-height: 23px; text-align: center; color: white; background-color: #4183C4; border-radius: 50%; font-weight: bold; margin-right: 10px;">3</span> **Hu, J.**, Zhang, J., Bai, J., & Lee, J. Unraveling the Dynamic Rules of Urban Traffic Crashes: Tucker-Net Based SIRS Model. *Preprint available at SSRN*: [https://ssrn.com/abstract=4697054](https://ssrn.com/abstract=4697054) or [http://dx.doi.org/10.2139/ssrn.4697054](http://dx.doi.org/10.2139/ssrn.4697054)
+- <span style="display: inline-block; width: 22px; height: 22px; line-height: 23px; text-align: center; color: white; background-color: #4183C4; border-radius: 50%; font-weight: bold; margin-right: 10px;">3</span> **Hu, J.**, Zhang, J., Bai, J., & Lee, J. Dynamic Correlation Analysis of Urban Crashes Using Tucker-Net Based SIRS Model: A Case Study in New York City
+. *Journal of the Franklin Institute* (Accepted)
     <details>
     <summary>📝 <b>Contribution (Click to expand)</b></summary>
     <em>Designed a new data-driven and transferable analysis model, the Tucker-Net based Susceptible-Infectious-Recovered-Susceptible (SIRS) model (TNBSM), for exploring dynamic correlations within crash zones using tensor decomposition and the SIRS model.</em>
