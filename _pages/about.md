@@ -45,6 +45,14 @@ Experience 💼
     * Assisted in developing and validating credit risk models for bank partners using Python (Pandas, Scikit-learn).
     * Responsible for pre-processing large-scale transaction data and performing feature engineering to improve model accuracy.
     * Contributed to a risk analysis report that provided data-driven insights for business strategy.
+ 
+-   **Volunteer Exchange**
+    * *Changsha Accessibility Enhancement Promotion Association, Changsha, Hunan, China*
+    * *March 2025 - June 2025 (Anticipated)*
+    * investigating the transportation barriers for people with disabilities (Field visits).
+    * Developing a crowdsourced mapping platform for accessible facilities.
+    * Demo Link: [https://junjiehu.pythonanywhere.com/]
+
 
 Publications 📄
 ======
