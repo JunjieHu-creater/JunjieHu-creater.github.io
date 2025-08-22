@@ -1,4 +1,4 @@
----
+<img width="2614" height="62" alt="image" src="https://github.com/user-attachments/assets/c7aeb092-c4b4-4198-8571-84ecd37703b5" />---
 permalink: /
 title: "About Me"
 excerpt: "A brief introduction to Junjie Hu, a Master's student focused on transport engineering, data analysis, and traffic safety."
@@ -113,4 +113,10 @@ I am driven to analyze large-scale traffic data to uncover patterns that pave th
     <details>
     <summary>📝 <b>My Role (Click to expand)</b></summary>
     <em>Contributed to investigating K-car crash injury severity using a random parameters probit model with heterogeneity in means. Designed an out-of-sample prediction approach to clarify heterogeneity among various crash severity mechanisms.</em>
+    </details>
+
+- <span style="display: inline-block; width: 22px; height: 22px; line-height: 23px; text-align: center; color: white; background-color: #4183C4; border-radius: 50%; font-weight: bold; margin-right: 10px;">11</span> Wang, L., Lee, J, **Hu, J.**, Y & Mao, S. Contributing Factors to the Severity of Crash Injury and Vehicle Damage Involving Japanese Lightweight K-cars: Considering Unobserved Heterogeneity. *Manuscript under review*.
+    <details>
+    <summary>📝 <b>My Role (Click to expand)</b></summary>
+    <em>Contributed to investigating K-car crash injury severity using a random parameter bivariate probit models with heterogeneity in means.</em>
     </details>
