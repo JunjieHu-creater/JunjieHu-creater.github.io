@@ -1,4 +1,4 @@
-<img width="2614" height="62" alt="image" src="https://github.com/user-attachments/assets/c7aeb092-c4b4-4198-8571-84ecd37703b5" />---
+---
 permalink: /
 title: "About Me"
 excerpt: "A brief introduction to Junjie Hu, a Master's student focused on transport engineering, data analysis, and traffic safety."
