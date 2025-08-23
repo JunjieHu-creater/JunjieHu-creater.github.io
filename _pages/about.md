@@ -109,7 +109,7 @@ I am driven to analyze large-scale traffic data to uncover patterns that pave th
     <em>Assisted in designing a modified CUSBoost algorithm for imbalanced trajectory data classification, leveraging four risk indicators and spatial distribution analysis.</em>
     </details>
 
-- <span style="display: inline-block; width: 22px; height: 22px; line-height: 23px; text-align: center; color: white; background-color: #4183C4; border-radius: 50%; font-weight: bold; margin-right: 10px;">10</span> Wang, L., **Hu, J.**, Yang, Y., & Lee, J. Analysis of injury severity of single-vehicle and two-vehicle crashes with lightweight vehicles (kei cars) in Japan: A random parameters approach with heterogeneity in means. *Manuscript under review*.
+- <span style="display: inline-block; width: 22px; height: 22px; line-height: 23px; text-align: center; color: white; background-color: #4183C4; border-radius: 50%; font-weight: bold; margin-right: 10px;">10</span> Wang, L., **Hu, J.**, Lee, J, Yang, Y., & Mao, S. Analysis of injury severity of single-vehicle and two-vehicle crashes with lightweight vehicles (kei cars) in Japan: A random parameters approach with heterogeneity in means. *Manuscript under review*.
     <details>
     <summary>📝 <b>My Role (Click to expand)</b></summary>
     <em>Contributed to investigating K-car crash injury severity using a random parameters probit model with heterogeneity in means. Designed an out-of-sample prediction approach to clarify heterogeneity among various crash severity mechanisms.</em>
