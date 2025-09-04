@@ -4,6 +4,7 @@ title: "About Me"
 permalink: /about/
 excerpt: "A brief introduction to Junjie Hu, a Master's student focused on transport engineering, data analysis, and traffic safety."
 redirect_from:
+  - /about/
   - /about.html
 ---
 
