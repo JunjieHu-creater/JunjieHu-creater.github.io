@@ -10,7 +10,7 @@ redirect_from:
 ---
 
 <style>
-/* 按钮样式 */
+/* 按钮样式（固定在右上角） */
 .lang-switch {
   position: fixed;
   top: 12px;
@@ -21,7 +21,7 @@ redirect_from:
   border-radius: 6px;
   border: 1px solid #ddd;
 }
-.lang-btn {
+.lang-switch .lang-btn {
   margin: 0 4px;
   padding: 2px 6px;
   font-size: 14px;
@@ -30,17 +30,19 @@ redirect_from:
   border-radius: 4px;
   background: #f9f9f9;
 }
-.lang-btn:hover {
-  background: #eee;
-}
+.lang-switch .lang-btn:hover { background: #eee; }
 
-/* 默认：显示中文、隐藏英文 */
-.lang-section { display: none; }
-.lang-section#zh { display: block; }
+/* 默认：显示中文，隐藏英文 */
+.lang-content .lang-zh { display: block; }
+.lang-content .lang-en { display: none; }
 
-/* 如果 URL 有 #en，就显示英文、隐藏中文 */
-:target ~ .lang-content #zh { display: none; }
-:target ~ .lang-content #en { display: block; }
+/* 当 URL 是 #en 时：隐藏中文，显示英文 */
+#en:target ~ .lang-content .lang-zh { display: none; }
+#en:target ~ .lang-content .lang-en { display: block; }
+
+/* 当 URL 是 #zh 时：显示中文，隐藏英文（显式声明以覆盖上一组规则） */
+#zh:target ~ .lang-content .lang-zh { display: block; }
+#zh:target ~ .lang-content .lang-en { display: none; }
 </style>
 
 <div class="lang-switch">
@@ -48,10 +50,14 @@ redirect_from:
   <a href="#en" class="lang-btn">English</a>
 </div>
 
+<!-- 关键：把锚点放在 .lang-content 之前，供 :target 选择 -->
+<a id="zh"></a>
+<a id="en"></a>
+
 <div class="lang-content">
 
 <!-- ================= 中文内容 ================= -->
-<div id="zh" class="lang-section">
+<div class="lang-zh">
 
 👋 你好！我是 **胡俊杰 (Junjie Hu)**，中南大学运输工程学院硕士二年级研究生，导师是 [Jaeyoung Jay Lee 教授](https://www.researchgate.net/profile/Jaeyoung-Lee-26)。  
 
@@ -153,7 +159,7 @@ redirect_from:
 </div>
 
 <!-- ================= 英文内容 ================= -->
- <div id="en" class="lang-section">
+<div class="lang-en">
 
 👋 Hello! I'm **Junjie Hu (胡俊杰)**, a second-year Master's student at the [School of Transport & Transportation Engineering](https://stte.csu.edu.cn/), [Central South University](https://www.csu.edu.cn/) (CSU). I have the privilege of being advised by [Prof. Jaeyoung Jay Lee](https://www.researchgate.net/profile/Jaeyoung-Lee-26), a distinguished researcher recognized among the top 2% of scientists globally in road safety.
 
@@ -270,6 +276,4 @@ I am driven to analyze large-scale traffic data to uncover patterns that pave th
 
 </div>
 
-<!-- ================= 可选：如果 GitHub Pages 或构建环境禁用了内联脚本，请把上面的 <script> 内容放到 /assets/js/lang-toggle.js 中，并在你的全局布局里引入：
-<script src="{{ "/assets/js/lang-toggle.js" | relative_url }}" defer></script>
--->
+</div>
