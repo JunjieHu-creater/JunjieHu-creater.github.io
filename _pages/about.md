@@ -4,13 +4,12 @@ title: "About Me"
 permalink: /about/
 ---
 
-<!-- 切换按钮 -->
 <div class="lang-switch">
   <a href="#zh">中文</a> | <a href="#en">English</a>
 </div>
 
-<!-- 中文内容 -->
-<div id="zh" class="lang lang-zh">
+<div id="zh" class="lang lang-zh" markdown="1">
+
 👋 你好！我是 **胡俊杰 (Junjie Hu)**，中南大学运输工程学院硕士二年级研究生，导师是 [Jaeyoung Jay Lee 教授](https://www.researchgate.net/profile/Jaeyoung-Lee-26)。  
 
 研究兴趣：  
@@ -85,12 +84,13 @@ permalink: /about/
 
 11. Wang, L., Lee, J., **Hu, J.**, Yang, Y., & Mao, S. *Contributing Factors to the Severity of Crash Injury and Vehicle Damage...* Manuscript under review.  
 📝 我的角色  
+
 </div>
 
 ---
 
-<!-- 英文内容 -->
-<div id="en" class="lang lang-en">
+<div id="en" class="lang lang-en" markdown="1">
+
 👋 Hello! I’m **Junjie Hu**, a second-year master student at the School of Transportation Engineering, Central South University, advised by [Prof. Jaeyoung Jay Lee](https://www.researchgate.net/profile/Jaeyoung-Lee-26).  
 
 **Research Interests:**  
@@ -165,18 +165,23 @@ I am passionate about leveraging large-scale traffic data to uncover hidden patt
 
 11. Wang, L., Lee, J., **Hu, J.**, Yang, Y., & Mao, S. *Contributing Factors to the Severity of Crash Injury and Vehicle Damage...* Manuscript under review.  
 📝 My Role  
+
 </div>
 
 ---
 
 <style>
-/* 默认显示中文 */
+/* 默认只显示中文 */
 .lang { display: none; }
 .lang-zh { display: block; }
 
-/* 当 URL 中有 #en 时显示英文，隐藏中文 */
+/* 点击 #en 显示英文，隐藏中文 */
 :target.lang-en { display: block; }
 :target.lang-en ~ .lang-zh { display: none; }
+
+/* 点击 #zh 显示中文，隐藏英文 */
+:target.lang-zh { display: block; }
+:target.lang-zh ~ .lang-en { display: none; }
 
 /* 切换按钮样式 */
 .lang-switch {
