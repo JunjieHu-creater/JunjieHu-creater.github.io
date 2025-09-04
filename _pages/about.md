@@ -1,260 +1,116 @@
 ---
-layout: single
+permalink: /
 title: "About Me"
-permalink: /about/
+excerpt: "A brief introduction to Junjie Hu, a Master's student focused on transport engineering, data analysis, and traffic safety."
+author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
 ---
 
-<div class="lang-switch">
-  <a href="#zh">中文</a> | <a href="#en">English</a>
-</div>
+👋 Hello! I'm **Junjie Hu (胡俊杰)**, a second-year Master's student at the [School of Transport & Transportation Engineering](https://stte.csu.edu.cn/), [Central South University](https://www.csu.edu.cn/) (CSU). I have the privilege of being advised by [Prof. Jaeyoung Jay Lee](https://www.researchgate.net/profile/Jaeyoung-Lee-26), a distinguished researcher recognized among the top 2% of scientists globally in road safety.
 
-<div id="en" class="lang lang-en" markdown="1">
+My research passion lies at the dynamic intersection of:
+* 📊 **Traffic Spatio-Temporal Data Analysis**
+* 🚗 **Vehicular Decision-Making & Control**
+* 🧠 **Deep Learning Applications in Transportation Systems**
+* 🛡️ **Advanced Traffic Safety Methodologies**
 
-👋 Hello! I’m **Junjie Hu**, a second-year master student at the School of Transportation Engineering, Central South University, advised by [Prof. Jaeyoung Jay Lee](https://www.researchgate.net/profile/Jaeyoung-Lee-26).  
+I am driven to analyze large-scale traffic data to uncover patterns that pave the way for safer, more intelligent, and sustainable transportation systems. I am always enthusiastic about collaborating on innovative ideas to advance our collective impact.
 
-**Research Interests:**  
-* 📊 **Spatio-temporal traffic data analytics**  
-* 🚗 **Vehicle decision-making and control**  
-* 🧠 **Deep learning in transportation systems**  
-* 🛡️ **Advanced traffic safety methods**  
+🔗 **Connect & Explore:**
+* **Email:** [junjie_hu@csu.edu.cn](mailto:junjie_hu@csu.edu.cn)
+* **WeChat:** [Scan QR Code](../images/wechat.jpg) 
+* **Curriculum Vitae:** [Download My CV](../assets/JunjieHu_CV.pdf) 
 
-I am passionate about leveraging large-scale traffic data to uncover hidden patterns and promote safer, smarter, and more sustainable transportation systems.  
+## Experience 💼
 
-🔗 **Contact**  
-* **Email:** [junjie_hu@csu.edu.cn](mailto:junjie_hu@csu.edu.cn)  
-* **WeChat:** [Scan QR code](/images/wechat.jpg)  
-* **CV:** [Download my CV](/assets/JunjieHu_CV.pdf)  
+### Education
+* **Master of Engineering, Transportation Engineering**
+    * *School of Transportation Engineering, Central South University*
+    * *Changsha, China*
+    * *September 2023 - Present*
 
----
+* **Bachelor of Engineering, Logistics Engineering**
+    * *School of Transportation Engineering, Central South University*
+    * *Changsha, China*
+    * *September 2019 - June 2023*
 
-## Education 🎓
-* **MSc in Transportation Engineering** — Central South University, Changsha, China (Sep 2023 – Present)  
-* **BEng in Logistics Engineering** — Central South University, Changsha, China (Sep 2019 – Jun 2023)  
+### Professional Experience
+* **Business Risk Modeling Intern**
+    * *Magic Engine Technology Co., Ltd., Shenzhen, China*
+    * *July 2024 - September 2024*
+    * Assisted in developing and validating credit risk models for bank partners using Python (Pandas, Scikit-learn).
+    * Pre-processed large-scale transaction data and engineered features to improve model accuracy.
+    * Contributed to a risk analysis report that provided data-driven insights for business strategy.
 
----
-
-## Internships 💼
-* **Risk Modeling Intern** — Magic Engine Technology, Shenzhen, China (Jul 2024 – Sep 2024)  
-  - Developed and validated credit risk models using Python.  
-  - Performed large-scale data preprocessing and feature engineering.  
-  - Contributed to risk analysis reports to support strategic decisions.  
-
----
-
-## Volunteer Experience 🌱
-* **Research Volunteer** — Changsha Accessibility Promotion Association, Changsha, China (Mar 2025 – Jun 2025)  
-  - Investigated mobility barriers faced by people with disabilities.  
-  - Co-developed a crowdsourced mapping platform for accessibility facilities.  
-  - Project Demo: [View Online](https://junjiehu.pythonanywhere.com/)  
-
----
+### Volunteer & Community Engagement
+* **Volunteer Researcher**
+    * *Changsha Accessibility Enhancement Promotion Association, Changsha, Hunan, China*
+    * *March 2025 - June 2025*
+    * Investigated transportation barriers for people with disabilities through field visits and surveys.
+    * Co-developed a crowdsourced mapping platform for accessible facilities.
+    * Project Demo: [View Live Project](https://junjiehu.pythonanywhere.com/)
 
 ## Publications 📄
-*(Titles and journals kept in English as published)*  
+*(Names in **bold** indicate my authorship)*
 
-1. **Hu, J.**, Hu, C., Yang, J., Bai, J., & Lee, J. J. (2024). *Do traffic flow states follow Markov properties?* Chaos, Solitons, and Fractals, 183, 114965.  
-📝 Contribution  
+- <span style="display: inline-block; width: 22px; height: 22px; line-height: 23px; text-align: center; color: white; background-color: #4183C4; border-radius: 50%; font-weight: bold; margin-right: 10px;">1</span> **Hu, J.**, Hu, C., Yang, J., Bai, J., & Lee, J. J. (2024). Do traffic flow states follow Markov properties? A high-order spatiotemporal traffic state reconstruction approach for traffic prediction and imputation. *Chaos, Solitons, and Fractals*, 183, 114965. [https://doi.org/10.1016/j.chaos.2024.114965](https://doi.org/10.1016/j.chaos.2024.114965)
+    <details>
+    <summary>📝 <b>Contribution (Click to expand)</b></summary>
+    <em>Designed a high-order traffic state reconstruction method demonstrating traffic flow's Markov property. Leveraged Markov matrix prior knowledge for high-accuracy traffic imputation tasks using an auto-encoder framework.</em>
+    </details>
 
-2. **Hu, J.**, Bai, J., Yang, J., & Lee, J. (2024). *Crash Risk Prediction Using Sparse Collision Data.* Expert Systems with Applications, 248, 125315.  
-📝 Contribution  
+- <span style="display: inline-block; width: 22px; height: 22px; line-height: 23px; text-align: center; color: white; background-color: #4183C4; border-radius: 50%; font-weight: bold; margin-right: 10px;">2</span> **Hu, J.**, Bai, J., Yang, J., & Lee, J. (2024). Crash Risk Prediction Using Sparse Collision Data: Causal Inference and Graph Convolutional Networks Approaches. *Expert Systems with Applications*, 248, 125315. [https://doi.org/10.1016/j.eswa.2024.125315](https://doi.org/10.1016/j.eswa.2024.125315)
+    <details>
+    <summary>📝 <b>Contribution (Click to expand)</b></summary>
+    <em>Created a crash data enhancement strategy utilizing historic priori spatial and temporal knowledge. Developed a novel method, Priori Spatial and Temporal Causal Graph Convolutional Network (PST-CGCN), for predicting crash risk based on causal inference and graph convolutional networks.</em>
+    </details>
 
-3. **Hu, J.**, Zhang, J., Bai, J., & Lee, J. (2025). *Dynamic Correlation Analysis of Urban Crashes Using Tucker-Net Based SIRS Model.* Journal of the Franklin Institute.  
-📝 Contribution  
+- <span style="display: inline-block; width: 22px; height: 22px; line-height: 23px; text-align: center; color: white; background-color: #4183C4; border-radius: 50%; font-weight: bold; margin-right: 10px;">3</span> **Hu, J.**, Zhang, J., Bai, J., & Lee, J. Dynamic Correlation Analysis of Urban Crashes Using Tucker-Net Based SIRS Model: A Case Study in New York City. *Journal of the Franklin Institute*, 107946, https://doi.org/10.1016/j.jfranklin.2025.107946
+    <details>
+    <summary>📝 <b>Contribution (Click to expand)</b></summary>
+    <em>Designed a new data-driven and transferable analysis model, the Tucker-Net based Susceptible-Infectious-Recovered-Susceptible (SIRS) model (TNBSM), for exploring dynamic correlations within crash zones using tensor decomposition and the SIRS model.</em>
+    </details>
 
-4. **Hu, J.**, & Lee, J. (2025). *Car following dynamics in mixed traffic flow...* Physica A, 665, 130519.  
-📝 Contribution  
+- <span style="display: inline-block; width: 22px; height: 22px; line-height: 23px; text-align: center; color: white; background-color: #4183C4; border-radius: 50%; font-weight: bold; margin-right: 10px;">4</span> **Hu, J.**, & Lee, J. (2025). Car following dynamics in mixed traffic flow of autonomous and human-driven vehicles: complex networks approach. *Physica A: Statistical Mechanics and its Applications*, 665, 130519. [https://doi.org/10.1016/j.physa.2025.130519](https://doi.org/10.1016/j.physa.2025.130519)
+    <details>
+    <summary>📝 <b>Contribution (Click to expand)</b></summary>
+    <em>Applied a coarse-grained phase space algorithm, introduced complex network technology into vehicle-following behavior analysis, and revealed distinct characteristics and differences between autonomous vehicles (AV) and human-driven vehicles (HV).</em>
+    </details>
 
-5. **Hu, J.**, Bai, J., & Lee, J. *Simplified and Efficient KNN-Based Method...* Manuscript under review.  
-📝 Contribution  
+- <span style="display: inline-block; width: 22px; height: 22px; line-height: 23px; text-align: center; color: white; background-color: #4183C4; border-radius: 50%; font-weight: bold; margin-right: 10px;">5</span> **Hu, J.**, Bai, J., & Lee, J. Simplified and Efficient KNN-Based Method for High-Resolution Traffic Time-Space Diagram Imputation. *Manuscript under review*.
+    <details>
+    <summary>📝 <b>Contribution (Click to expand)</b></summary>
+    <em>Proposed a modified K-Nearest Neighbors (KNN) framework for reconstructing and imputing Time-Space Diagrams (TSD) from sparse data by matching similar spatiotemporal neighborhood features defined by Queen Contiguity Spatial Rule.</em>
+    </details>
 
-6. **Hu, J.**, Gao, D., Hu, C., Zhou, H., & Lee, J. *Rethinking driving style recognition...* Manuscript under review.  
-📝 Contribution  
+- <span style="display: inline-block; width: 22px; height: 22px; line-height: 23px; text-align: center; color: white; background-color: #4183C4; border-radius: 50%; font-weight: bold; margin-right: 10px;">6</span> **Hu, J.**, Gao, D., Hu, C., Zhou, H., & Lee, J. Rethinking driving style recognition: A prediction error-based driving behavior modeling. *Manuscript under review*.
+    <details>
+    <summary>📝 <b>Contribution (Click to expand)</b></summary>
+    <em>Revisited an end-to-end approach for driving style recognition by exploring driver behavior heterogeneity through trajectory prediction model errors. Utilized spatial attention and convolutional social pooling to learn interdependencies in vehicle motion and introduced a multi-modal distribution for future trajectories based on driving style.</em>
+    </details>
 
-7. **Hu, J.**, Gao, D., Lee, J., & Wang, L. *Vehicle dynamics analytics based on complex network techniques...* Manuscript under review.  
-📝 Contribution  
+- <span style="display: inline-block; width: 22px; height: 22px; line-height: 23px; text-align: center; color: white; background-color: #4183C4; border-radius: 50%; font-weight: bold; margin-right: 10px;">7</span> **Hu, J.**, Gao, D., Lee, J., & Wang, L. Vehicle dynamics analytics based on complex network techniques: a trajectory-based visibility graph approach. *Manuscript under review*.
+    <details>
+    <summary>📝 <b>Contribution (Click to expand)</b></summary>
+    <em>Introduced an adaptive trajectory-based visibility graph (TVG) framework, a novel method for dissecting vehicle dynamics by transforming planar trajectory data into complex networks. This framework features a tunable visibility tolerance coefficient, dynamically scaled by lateral displacement, enabling the TVG to capture geometric occlusions and maneuver-specific spatial scales.</em>
+    </details>
 
-8. **Hu, J.**, Lee, J., & Wang, L. *Re-examining the Explanatory Boundaries of Car-Following Models...* Manuscript under review.  
-📝 Contribution  
+- <span style="display: inline-block; width: 22px; height: 22px; line-height: 23px; text-align: center; color: white; background-color: #4183C4; border-radius: 50%; font-weight: bold; margin-right: 10px;">8</span> **Hu, J.**, Lee, J., & Wang, L. Re-examining the Explanatory Boundaries of Car-Following Models: From a Systematic Decomposition of Fitting Errors to the Revelation of Adaptive Feedback Mechanisms. *Manuscript under review*.
+    <details>
+    <summary>📝 <b>Contribution (Click to expand)</b></summary>
+    <em>Posited that residuals of car-following (cf) model are a composite of structural errors and random error and utilized an Unobserved Components Model to decompose the residual series from three calibrated CF models.</em>
+    </details>
 
-9. Yang, J., Lee, J., Mao, S., & **Hu, J.** (2024). *Dynamic safety estimation of airport pick-up area...* IEEE T-ITS, 25(2), 1774–1786.  
-📝 My Role  
+- <span style="display: inline-block; width: 22px; height: 22px; line-height: 23px; text-align: center; color: white; background-color: #4183C4; border-radius: 50%; font-weight: bold; margin-right: 10px;">9</span> Yang, J., Lee, J., Mao, S., & **Hu, J.** (2024). Dynamic safety estimation of airport pick-up area based on video trajectory data. *IEEE Transactions on Intelligent Transportation Systems*, 25(2), 1774–1786. [https://doi.org/10.1109/TITS.2023.3275986](https://doi.org/10.1109/TITS.2023.3275986)
+    <details>
+    <summary>📝 <b>My Role (Click to expand)</b></summary>
+    <em>Assisted in designing a modified CUSBoost algorithm for imbalanced trajectory data classification, leveraging four risk indicators and spatial distribution analysis.</em>
+    </details>
 
-10. Wang, L., **Hu, J.**, Lee, J., Yang, Y., & Mao, S. *Analysis of injury severity of crashes with kei cars in Japan...* Manuscript under review.  
-📝 My Role  
-
-11. Wang, L., Lee, J., **Hu, J.**, Yang, Y., & Mao. *Contributing Factors to the Severity of Crash Injury and Vehicle Damage...* Manuscript under review.  
-📝 My Role  
-
-</div>
-
----
-
-<div id="zh" class="lang lang-zh" markdown="1">
-
-👋 你好！我是 **胡俊杰 (Junjie Hu)**，中南大学运输工程学院硕士二年级研究生，导师是 [Jaeyoung Jay Lee 教授](https://www.researchgate.net/profile/Jaeyoung-Lee-26)。  
-
-研究兴趣：  
-* 📊 **交通时空数据分析**  
-* 🚗 **车辆决策与控制**  
-* 🧠 **深度学习在交通系统中的应用**  
-* 🛡️ **先进的交通安全方法**  
-
-我热衷于利用大规模交通数据揭示潜在规律，推动交通系统更安全、更智能、更可持续。  
-
-🔗 **联系方式**  
-* **邮箱：** [junjie_hu@csu.edu.cn](mailto:junjie_hu@csu.edu.cn)  
-* **微信：** [扫码查看二维码](/images/wechat.jpg)  
-* **简历：** [下载我的 CV](/assets/JunjieHu_CV.pdf)  
-
----
-
-## 教育经历 🎓
-* **硕士研究生（交通工程）** — 中南大学，长沙，中国 (2023年9月 - 至今)  
-* **本科（物流工程）** — 中南大学，长沙，中国 (2019年9月 - 2023年6月)  
-
----
-
-## 实习经历 💼
-* **业务风险建模实习生** — Magic Engine Technology, 深圳，中国 (2024年7月 - 2024年9月)  
-  - 使用 Python 进行信用风险模型开发与验证。  
-  - 大规模数据预处理与特征工程。  
-  - 参与撰写风险分析报告，支持战略决策。  
-
----
-
-## 志愿经历 🌱
-* **志愿研究员** — 长沙无障碍提升促进会，长沙，中国 (2025年3月 - 2025年6月)  
-  - 调研残障人士出行障碍。  
-  - 共同开发无障碍设施众包地图平台。  
-  - 项目演示：[在线查看](https://junjiehu.pythonanywhere.com/)  
-
----
-
-## 学术论文 📄
-*(论文题目与期刊保持英文不翻译)*  
-
-1. **Hu, J.**, Hu, C., Yang, J., Bai, J., & Lee, J. J. (2024). *Do traffic flow states follow Markov properties?* Chaos, Solitons, and Fractals, 183, 114965.  
-📝 贡献  
-
-2. **Hu, J.**, Bai, J., Yang, J., & Lee, J. (2024). *Crash Risk Prediction Using Sparse Collision Data.* Expert Systems with Applications, 248, 125315.  
-📝 贡献  
-
-3. **Hu, J.**, Zhang, J., Bai, J., & Lee, J. (2025). *Dynamic Correlation Analysis of Urban Crashes Using Tucker-Net Based SIRS Model.* Journal of the Franklin Institute.  
-📝 贡献  
-
-4. **Hu, J.**, & Lee, J. (2025). *Car following dynamics in mixed traffic flow...* Physica A, 665, 130519.  
-📝 贡献  
-
-5. **Hu, J.**, Bai, J., & Lee, J. *Simplified and Efficient KNN-Based Method...* Manuscript under review.  
-📝 贡献  
-
-6. **Hu, J.**, Gao, D., Hu, C., Zhou, H., & Lee, J. *Rethinking driving style recognition...* Manuscript under review.  
-📝 贡献  
-
-7. **Hu, J.**, Gao, D., Lee, J., & Wang, L. *Vehicle dynamics analytics based on complex network techniques...* Manuscript under review.  
-📝 贡献  
-
-8. **Hu, J.**, Lee, J., & Wang, L. *Re-examining the Explanatory Boundaries of Car-Following Models...* Manuscript under review.  
-📝 贡献  
-
-9. Yang, J., Lee, J., Mao, S., & **Hu, J.** (2024). *Dynamic safety estimation of airport pick-up area...* IEEE T-ITS, 25(2), 1774–1786.  
-📝 我的角色  
-
-10. Wang, L., **Hu, J.**, Lee, J., Yang, Y., & Mao, S. *Analysis of injury severity of crashes with kei cars in Japan...* Manuscript under review.  
-📝 我的角色  
-
-11. Wang, L., Lee, J., **Hu, J.**, Yang, Y., & Mao, S. *Contributing Factors to the Severity of Crash Injury and Vehicle Damage...* Manuscript under review.  
-📝 我的角色  
-
-</div>
-
----
-
-<style>
-/* --- SIMPLE & ROBUST CSS LOGIC --- */
-
-/* 1. Default State: Show Chinese, Hide English.
-   This works because Chinese (#zh) is the second block. The default state
-   is that the English block is hidden, allowing the Chinese block to be visible. */
-.lang-en {
-  display: none;
-}
-.lang-zh {
-  display: block;
-}
-
-
-/* 2. When "English" (#en) is targeted... */
-#en:target {
-  display: block; /* ...show the English block. */
-}
-#en:target ~ .lang-zh {
-  display: none; /* ...and hide the Chinese block that FOLLOWS it. This now works! */
-}
-
-
-/* 3. When "中文" (#zh) is targeted (restoring default)... */
-#zh:target {
-  display: block; /* ...show the Chinese block. */
-}
-/* We must also hide the English block when switching back. The general sibling selector `~`
-   does not work here to select the preceding #en block. But we can simply rely on the default state.
-   To make it more robust, we add an explicit rule. */
-#zh:target ~ .lang-en {
-   /* This selector does nothing as #en comes before, but we can reset the #en block. */
-}
-/* A better way to write the logic for restoring the default: */
-#zh:target ~ .lang-en { display: none; } /* This doesn't work, but it also doesn't hurt. */
-/* The simplest way is to just let the default rules handle the return to Chinese.
-   The rules above are sufficient, but for absolute clarity, let's make it fully explicit. */
-
-/* Let's refine for absolute clarity and robustness. */
-
-/* Default State: Chinese visible, English hidden. */
-#en { display: none; }
-#zh { display: block; }
-
-/* State when English is targeted */
-#en:target { display: block; }
-#en:target ~ #zh { display: none; }
-
-/* State when Chinese is targeted (restoring default explicitly) */
-#zh:target { display: block; }
-/* This rule is needed to hide English when clicking back to Chinese */
-#zh:target ~ * #en, #en:target ~ #zh:not(:target) {
-    /* This gets too complex. Let's use the simplest robust code. */
-}
-
-/* --- FINAL, TESTED, AND WORKING CODE --- */
-
-/* 1. Set the default view. Since #zh is the default language, we hide #en. */
-#en { display: none; }
-#zh { display: block; }
-
-/* 2. Define the "English View". When #en is the target... */
-#en:target {
-  display: block; /* Show English */
-}
-#en:target + #zh { /* Use '+' for the immediately adjacent sibling, or '~' for any following sibling */
-  display: none;  /* Hide Chinese */
-}
-
-/* 3. Define the "Chinese View" (when you click back to Chinese). When #zh is the target... */
-#zh:target {
-  display: block; /* Show Chinese */
-}
-/* We also need to hide English again. We can't use `~` or `+`, but we can create a rule that says "hide English when #zh is the target" by scoping it to the parent.
-   However, the simplest thing is to just rely on the default and the click.
-   When you click #zh, the #en is no longer a target, so it reverts to `display: none`. This works. */
-
-/* Final Switch Button Styles */
-.lang-switch {
-  text-align: right;
-  margin-bottom: 1rem;
-}
-.lang-switch a {
-  margin-left: 0.5rem;
-  text-decoration: none;
-  font-weight: bold;
-}
-</style>
+- <span style="display: inline-block; width: 22px; height: 22px; line-height: 23px; text-align: center; color: white; background-color: #4183C4; border-radius: 50%; font-weight: bold; margin-right: 10px;">10</span> Wang, L., **Hu, J.**, Yang, Y., & Lee, J. Analysis of injury severity of single-vehicle and two-vehicle crashes with lightweight vehicles (kei cars) in Japan: A random parameters approach with heterogeneity in means. *Manuscript under review*.
+    <details>
+    <summary>📝 <b>My Role (Click to expand)</b></summary>
+    <em>Contributed to investigating K-car crash injury severity using a random parameters probit model with heterogeneity in means. Designed an out-of-sample prediction approach to clarify heterogeneity among various crash severity mechanisms.</em>
+    </details>
