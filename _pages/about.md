@@ -10,48 +10,61 @@ redirect_from:
 ---
 
 <style>
-/* 按钮样式 */
+/* —— 切换按钮 —— */
 .lang-switch {
   position: fixed;
   top: 12px;
   right: 12px;
-  z-index: 9999;
+  z-index: 99999;
   background: #fff;
   padding: 6px 10px;
   border-radius: 6px;
   border: 1px solid #ddd;
+  box-shadow: 0 1px 3px rgba(0,0,0,.06);
 }
-.lang-btn {
+.lang-switch a {
   margin: 0 4px;
-  padding: 2px 6px;
+  padding: 2px 8px;
   font-size: 14px;
+  line-height: 1.6;
   text-decoration: none;
   border: 1px solid #aaa;
   border-radius: 4px;
   background: #f9f9f9;
 }
-.lang-btn:hover {
-  background: #eee;
-}
+.lang-switch a:hover { background: #eee; }
 
-/* 默认显示中文 */
-#zh { display: block; }
-#en { display: none; }
+/* —— 默认：显示中文，隐藏英文 —— */
+.lang-zh { display: block; }
+.lang-en { display: none; }
 
-/* 切换到英文 */
-#en:target { display: block; }
-#en:target ~ #zh { display: none; }
+/* —— 当 URL 有 #en 时：只显示英文 —— */
+#en:target ~ .lang-content .lang-zh { display: none; }
+#en:target ~ .lang-content .lang-en { display: block; }
+
+/* —— 当 URL 有 #zh 时：只显示中文（显式中文锚点） —— */
+#zh:target ~ .lang-content .lang-zh { display: block; }
+#zh:target ~ .lang-content .lang-en { display: none; }
+
+/* —— 隐藏空锚点本身占位 —— */
+#zh, #en { display: block; height: 0; overflow: hidden; }
 </style>
 
 <div class="lang-switch">
-  <a href="#zh" class="lang-btn">中文</a>
-  <a href="#en" class="lang-btn">English</a>
+  <a href="#zh">中文</a>
+  <a href="#en">English</a>
 </div>
 
-<!-- ================= 中文内容 ================= -->
-<div id="zh">
+<!-- 空锚点：必须在内容前；纯 CSS 通过这些锚点的 :target 切换 -->
+<span id="zh"></span>
+<span id="en"></span>
 
-👋 你好！我是 **胡俊杰 (Junjie Hu)**，中南大学运输工程学院硕士二年级研究生，导师是 [Jaeyoung Jay Lee 教授](https://www.researchgate.net/profile/Jaeyoung-Lee-26)。  
+<div class="lang-content">
+
+<!-- ================= 中文 ================= -->
+<div class="lang-zh" markdown="1">
+
+👋 你好！我是 **胡俊杰 (Junjie Hu)**，中南大学运输工程学院硕士二年级研究生，导师是 [Jaeyoung Jay Lee 教授](https://www.researchgate.net/profile/Jaeyoung-Lee-26)。
 
 研究兴趣：  
 * 📊 **交通时空数据分析**  
@@ -59,7 +72,7 @@ redirect_from:
 * 🧠 **深度学习在交通系统中的应用**  
 * 🛡️ **先进的交通安全方法**  
 
-我热衷于利用大规模交通数据揭示潜在规律，推动交通系统更安全、更智能、更可持续。  
+我热衷于利用大规模交通数据揭示潜在规律，推动交通系统更安全、更智能、更可持续。
 
 🔗 **联系方式**  
 * **邮箱：** [junjie_hu@csu.edu.cn](mailto:junjie_hu@csu.edu.cn)  
@@ -70,7 +83,7 @@ redirect_from:
 
 ## 教育经历 🎓
 * **硕士研究生（交通工程）** — 中南大学，长沙，中国 (2023年9月 - 至今)  
-* **本科（物流工程）** — 中南大学，长沙，中国 (2019年9月 - 2023年6月)  
+* **本科（物流工程）** — 中南大学，长沙，中国 (2019年9月 - 2023年6月)
 
 ---
 
@@ -78,7 +91,7 @@ redirect_from:
 * **业务风险建模实习生** — Magic Engine Technology, 深圳，中国 (2024年7月 - 2024年9月)  
   - 使用 Python 进行信用风险模型开发与验证。  
   - 大规模数据预处理与特征工程。  
-  - 参与撰写风险分析报告，支持战略决策。  
+  - 参与撰写风险分析报告，支持战略决策。
 
 ---
 
@@ -86,110 +99,116 @@ redirect_from:
 * **志愿研究员** — 长沙无障碍提升促进会，长沙，中国 (2025年3月 - 2025年6月)  
   - 调研残障人士出行障碍。  
   - 共同开发无障碍设施众包地图平台。  
-  - 项目演示：[在线查看](https://junjiehu.pythonanywhere.com/)  
+  - 项目演示：[在线查看](https://junjiehu.pythonanywhere.com/)
 
 ---
 
 ## 学术论文 📄  
-*(论文题目与期刊保持英文不翻译)*  
+*(论文题目与期刊保持英文不翻译)*
 
 1. **Hu, J.**, Hu, C., Yang, J., Bai, J., & Lee, J. J. (2024). *Do traffic flow states follow Markov properties?* Chaos, Solitons, and Fractals, 183, 114965.  
-   <details><summary>📝 贡献</summary>  
-   设计了一种高阶交通状态重建方法，证明了交通流的 Markov 特性；结合 Markov 矩阵先验知识，在自编码器框架中实现高精度交通插补。  
-   </details>  
+   <details><summary>📝 贡献</summary>
+   设计了一种高阶交通状态重建方法，证明了交通流的 Markov 特性；结合 Markov 矩阵先验知识，在自编码器框架中实现高精度交通插补。
+   </details>
 
 2. **Hu, J.**, Bai, J., Yang, J., & Lee, J. (2024). *Crash Risk Prediction Using Sparse Collision Data.* Expert Systems with Applications, 248, 125315.  
-   <details><summary>📝 贡献</summary>  
-   提出基于历史空间和时间先验知识的碰撞数据增强策略；开发了一种新的因果推断与图卷积网络方法 PST-CGCN，用于预测交通事故风险。  
-   </details>  
+   <details><summary>📝 贡献</summary>
+   提出基于历史空间和时间先验知识的碰撞数据增强策略；开发了一种新的因果推断与图卷积网络方法 PST-CGCN，用于预测交通事故风险。
+   </details>
 
 3. **Hu, J.**, Zhang, J., Bai, J., & Lee, J. (2025). *Dynamic Correlation Analysis of Urban Crashes Using Tucker-Net Based SIRS Model.* Journal of the Franklin Institute.  
-   <details><summary>📝 贡献</summary>  
-   设计了可迁移的数据驱动模型——基于 Tucker-Net 的 SIRS 模型 (TNBSM)，利用张量分解与 SIRS 框架分析城市交通事故区域的动态相关性。  
-   </details>  
+   <details><summary>📝 贡献</summary>
+   设计了可迁移的数据驱动模型——基于 Tucker-Net 的 SIRS 模型 (TNBSM)，利用张量分解与 SIRS 框架分析城市交通事故区域的动态相关性。
+   </details>
 
 4. **Hu, J.**, & Lee, J. (2025). *Car following dynamics in mixed traffic flow...* Physica A, 665, 130519.  
-   <details><summary>📝 贡献</summary>  
-   应用粗粒化相空间算法，引入复杂网络技术研究跟驰行为，揭示自动驾驶与人类驾驶车辆的差异特征。  
-   </details>  
+   <details><summary>📝 贡献</summary>
+   应用粗粒化相空间算法，引入复杂网络技术研究跟驰行为，揭示自动驾驶与人类驾驶车辆的差异特征。
+   </details>
 
 5. **Hu, J.**, Bai, J., & Lee, J. *Simplified and Efficient KNN-Based Method...* Manuscript under review.  
-   <details><summary>📝 贡献</summary>  
-   提出改进的 KNN 框架，基于空间邻接规则（Queen Contiguity）进行时空邻域匹配，实现稀疏数据下时空图（TSD）的重建与插补。  
-   </details>  
+   <details><summary>📝 贡献</summary>
+   提出改进的 KNN 框架，基于空间邻接规则（Queen Contiguity）进行时空邻域匹配，实现稀疏数据下时空图（TSD）的重建与插补。
+   </details>
 
 6. **Hu, J.**, Gao, D., Hu, C., Zhou, H., & Lee, J. *Rethinking driving style recognition...* Manuscript under review.  
-   <details><summary>📝 贡献</summary>  
-   提出基于预测误差的驾驶行为建模方法，通过轨迹预测误差分析驾驶差异；利用空间注意力与卷积社交池化学习车辆运动的依赖关系，并引入多模态分布表征不同驾驶风格。  
-   </details>  
+   <details><summary>📝 贡献</summary>
+   提出基于预测误差的驾驶行为建模方法，通过轨迹预测误差分析驾驶差异；利用空间注意力与卷积社交池化学习车辆运动的依赖关系，并引入多模态分布表征不同驾驶风格。
+   </details>
 
 7. **Hu, J.**, Gao, D., Lee, J., & Wang, L. *Vehicle dynamics analytics based on complex network techniques...* Manuscript under review.  
-   <details><summary>📝 贡献</summary>  
-   引入自适应轨迹可见图 (TVG) 框架，将车辆轨迹转化为复杂网络，利用可调节的可见性容忍系数刻画几何遮挡和特定驾驶操作的空间尺度。  
-   </details>  
+   <details><summary>📝 贡献</summary>
+   引入自适应轨迹可见图 (TVG) 框架，将车辆轨迹转化为复杂网络，利用可调节的可见性容忍系数刻画几何遮挡和特定驾驶操作的空间尺度。
+   </details>
 
 8. **Hu, J.**, Lee, J., & Wang, L. *Re-examining the Explanatory Boundaries of Car-Following Models...* Manuscript under review.  
-   <details><summary>📝 贡献</summary>  
-   提出将车-following 模型残差分解为结构性误差和随机误差，利用不可观测成分模型 (UCM) 对三类标定模型残差进行系统分解，揭示适应性反馈机制。  
-   </details>  
+   <details><summary>📝 贡献</summary>
+   提出将车-following 模型残差分解为结构性误差和随机误差，利用不可观测成分模型 (UCM) 对三类标定模型残差进行系统分解，揭示适应性反馈机制。
+   </details>
 
 9. Yang, J., Lee, J., Mao, S., & **Hu, J.** (2024). *Dynamic safety estimation of airport pick-up area...* IEEE T-ITS, 25(2), 1774–1786.  
-   <details><summary>📝 我的角色</summary>  
-   协助设计改进的 CUSBoost 算法用于不平衡轨迹数据分类；结合风险指标和空间分布分析提升模型性能。  
-   </details>  
+   <details><summary>📝 我的角色</summary>
+   协助设计改进的 CUSBoost 算法用于不平衡轨迹数据分类；结合风险指标和空间分布分析提升模型性能。
+   </details>
 
 10. Wang, L., **Hu, J.**, Lee, J., Yang, Y., & Mao, S. *Analysis of injury severity of crashes with kei cars in Japan...* Manuscript under review.  
-    <details><summary>📝 我的角色</summary>  
-    基于随机参数 Probit 模型（均值异质性），研究日本 K-car 碰撞伤害严重性；设计了样本外预测方法揭示不同事故严重性机制的差异。  
-    </details>  
+    <details><summary>📝 我的角色</summary>
+    基于随机参数 Probit 模型（均值异质性），研究日本 K-car 碰撞伤害严重性；设计了样本外预测方法揭示不同事故严重性机制的差异。
+    </details>
 
 11. Wang, L., Lee, J., **Hu, J.**, Yang, Y., & Mao, S. *Contributing Factors to the Severity of Crash Injury and Vehicle Damage...* Manuscript under review.  
-    <details><summary>📝 我的角色</summary>  
-    基于随机参数双变量 Probit 模型（均值异质性），研究日本 K-car 碰撞伤害严重性与车辆损伤因素。  
-    </details>  
+    <details><summary>📝 我的角色</summary>
+    基于随机参数双变量 Probit 模型（均值异质性），研究日本 K-car 碰撞伤害严重性与车辆损伤因素。
+    </details>
 
 </div>
 
+<!-- ================= English ================= -->
+<div class="lang-en" markdown="1">
 
-<!-- ================= 英文内容 ================= -->
-<div id="en">
+👋 Hello! I'm **Junjie Hu (胡俊杰)**, a second-year Master's student at the [School of Transport & Transportation Engineering](https://stte.csu.edu.cn/), [Central South University](https://www.csu.edu.cn/) (CSU). I have the privilege of being advised by [Prof. Jaeyoung Jay Lee](https://www.researchgate.net/profile/Jaeyoung-Lee-26), a distinguished researcher recognized among the top 2% of scientists globally in road safety.
 
-👋 Hello! I'm **Junjie Hu (胡俊杰)**, a second-year Master's student at the [School of Transport & Transportation Engineering](https://stte.csu.edu.cn/), [Central South University](https://www.csu.edu.cn/).  
+My research passion lies at the dynamic intersection of:
+* 📊 **Traffic Spatio-Temporal Data Analysis**
+* 🚗 **Vehicular Decision-Making & Control**
+* 🧠 **Deep Learning Applications in Transportation Systems**
+* 🛡️ **Advanced Traffic Safety Methodologies**
 
-My research passion lies at the intersection of:  
-* 📊 **Traffic Spatio-Temporal Data Analysis**  
-* 🚗 **Vehicular Decision-Making & Control**  
-* 🧠 **Deep Learning Applications in Transportation Systems**  
-* 🛡️ **Advanced Traffic Safety Methodologies**  
+I am driven to analyze large-scale traffic data to uncover patterns that pave the way for safer, more intelligent, and sustainable transportation systems. I am always enthusiastic about collaborating on innovative ideas to advance our collective impact.
 
-I am driven to analyze large-scale traffic data to uncover patterns that pave the way for safer, more intelligent, and sustainable transportation systems.  
-
-🔗 **Connect & Explore:**  
-* **Email:** [junjie_hu@csu.edu.cn](mailto:junjie_hu@csu.edu.cn)  
-* **WeChat:** [Scan QR Code]({{ "/images/wechat.jpg" | relative_url }})  
-* **Curriculum Vitae:** [Download My CV]({{ "/assets/JunjieHu_CV.pdf" | relative_url }})  
-
----
+🔗 **Connect & Explore:**
+* **Email:** [junjie_hu@csu.edu.cn](mailto:junjie_hu@csu.edu.cn)
+* **WeChat:** [Scan QR Code]({{ "/images/wechat.jpg" | relative_url }}) 
+* **Curriculum Vitae:** [Download My CV]({{ "/assets/JunjieHu_CV.pdf" | relative_url }}) 
 
 ## Experience 💼
 
 ### Education
-* **Master of Engineering, Transportation Engineering** — *Central South University, Changsha, China* (September 2023 - Present)  
-* **Bachelor of Engineering, Logistics Engineering** — *Central South University, Changsha, China* (September 2019 - June 2023)  
+* **Master of Engineering, Transportation Engineering**
+    * *School of Transportation Engineering, Central South University*
+    * *Changsha, China*
+    * *September 2023 - Present*
+
+* **Bachelor of Engineering, Logistics Engineering**
+    * *School of Transportation Engineering, Central South University*
+    * *Changsha, China*
+    * *September 2019 - June 2023*
 
 ### Professional Experience
-* **Business Risk Modeling Intern** — *Magic Engine Technology Co., Ltd., Shenzhen, China* (July 2024 - September 2024)  
-  - Assisted in developing and validating credit risk models for bank partners using Python.  
-  - Pre-processed large-scale transaction data and engineered features.  
-  - Contributed to risk analysis reports supporting business strategy.  
+* **Business Risk Modeling Intern**
+    * *Magic Engine Technology Co., Ltd., Shenzhen, China*
+    * *July 2024 - September 2024*
+    * Assisted in developing and validating credit risk models for bank partners using Python (Pandas, Scikit-learn).
+    * Pre-processed large-scale transaction data and engineered features to improve model accuracy.
+    * Contributed to a risk analysis report that provided data-driven insights for business strategy.
 
 ### Volunteer & Community Engagement
-* **Volunteer Researcher** — *Changsha Accessibility Enhancement Promotion Association, Changsha, China* (March 2025 - June 2025)  
-  - Investigated transportation barriers for people with disabilities.  
-  - Co-developed a crowdsourced mapping platform for accessible facilities.  
-  - Project Demo: [View Live Project](https://junjiehu.pythonanywhere.com/)  
-
----
+* **Volunteer Researcher**
+    * *Changsha Accessibility Enhancement Promotion Association, Changsha, Hunan, China*
+    * *March 2025 - June 2025*
+    * Investigated transportation barriers for people with disabilities through field visits and surveys.
+    * Co-developed a crowdsourced mapping platform for accessible facilities.
+    * Project Demo: [View Live Project](https://junjiehu.pythonanywhere.com/)
 
 ## Publications 📄
 *(Names in **bold** indicate my authorship)*
@@ -258,8 +277,7 @@ I am driven to analyze large-scale traffic data to uncover patterns that pave th
     <details>
     <summary>📝 <b>My Role (Click to expand)</b></summary>
     <em>Contributed to investigating K-car crash injury severity using a random parameter bivariate probit models with heterogeneity in means.</em>
-  </details>
+    </details>
 
 </div>
-
 </div>
