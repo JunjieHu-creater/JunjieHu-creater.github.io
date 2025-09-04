@@ -1,13 +1,12 @@
 ---
-permalink: /about/
+permalink: /
 title: "About Me"
-excerpt: "A bilingual introduction (English & Chinese) of Junjie Hu, Master's student in transport engineering, data analysis, and traffic safety."
+excerpt: "A brief introduction to Junjie Hu, a Master's student focused on transport engineering, data analysis, and traffic safety."
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
-
 <!-- ================= 样式与切换按钮 ================= -->
 <style>
 .lang-en { display: none; }
