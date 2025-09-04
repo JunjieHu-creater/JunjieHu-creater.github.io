@@ -1,13 +1,13 @@
 ---
-permalink: /
+layout: single
+permalink: /about/
 title: "About Me"
 excerpt: "A brief introduction to Junjie Hu, a Master's student focused on transport engineering, data analysis, and traffic safety."
 author_profile: true
 redirect_from:
-  - /about/
+  - /
   - /about.html
 ---
-
 
 <!-- ================= 样式与切换按钮 ================= -->
 <style>
@@ -20,6 +20,10 @@ redirect_from:
 .lang-switch { position: fixed; top: 12px; right: 12px; z-index: 9999; font-family: system-ui; }
 .lang-switch button { margin-left: 6px; padding: 6px 10px; border-radius: 6px; border: 1px solid #ddd; background: white; cursor: pointer; }
 .lang-switch button.active { border-color: #4183C4; font-weight: 600; }
+
+/* 兼容无 JS 的情况，默认中文 */
+html:not([data-lang]) .lang-zh { display: block; }
+html:not([data-lang]) .lang-en { display: none; }
 </style>
 
 <div class="lang-switch">
@@ -32,13 +36,14 @@ redirect_from:
   function setLang(lang){
     document.documentElement.setAttribute('data-lang', lang);
     document.documentElement.lang = (lang === 'en' ? 'en-US' : 'zh-CN');
-    localStorage.setItem('siteLang', lang);
+    try { localStorage.setItem('siteLang', lang); } catch(e) {}
     document.querySelectorAll('.lang-btn').forEach(b => {
       b.classList.toggle('active', b.dataset.lang === lang);
     });
   }
   document.addEventListener('DOMContentLoaded', function(){
-    var saved = localStorage.getItem('siteLang') || 'zh';
+    var saved = 'zh';
+    try { saved = localStorage.getItem('siteLang') || 'zh'; } catch(e) {}
     setLang(saved);
     document.querySelectorAll('.lang-btn').forEach(btn => {
       btn.addEventListener('click', function(){ setLang(this.dataset.lang); });
@@ -48,7 +53,7 @@ redirect_from:
 </script>
 
 <!-- ================= 中文内容 ================= -->
-<div class="lang-zh">
+<div class="lang-zh" markdown="1">
 
 👋 你好！我是 **胡俊杰 (Junjie Hu)**，中南大学运输工程学院硕士二年级研究生，导师是 [Jaeyoung Jay Lee 教授](https://www.researchgate.net/profile/Jaeyoung-Lee-26)。  
 
@@ -62,8 +67,8 @@ redirect_from:
 
 🔗 **联系方式**  
 * **邮箱：** [junjie_hu@csu.edu.cn](mailto:junjie_hu@csu.edu.cn)  
-* **微信：** [扫码查看二维码](../images/wechat.jpg)  
-* **简历：** [下载我的 CV](../assets/JunjieHu_CV.pdf)  
+* **微信：** [扫码查看二维码]({{ "/images/wechat.jpg" | relative_url }})  
+* **简历：** [下载我的 CV]({{ "/assets/JunjieHu_CV.pdf" | relative_url }})  
 
 ---
 
@@ -149,8 +154,8 @@ redirect_from:
 
 </div>
 
-<!-- ================= 英文内容（保持原样，不赘述） ================= -->
-<div class="lang-en">
+<!-- ================= 英文内容 ================= -->
+<div class="lang-en" markdown="1">
 
 👋 Hello! I'm **Junjie Hu (胡俊杰)**, a second-year Master's student at the [School of Transport & Transportation Engineering](https://stte.csu.edu.cn/), [Central South University](https://www.csu.edu.cn/) (CSU). I have the privilege of being advised by [Prof. Jaeyoung Jay Lee](https://www.researchgate.net/profile/Jaeyoung-Lee-26), a distinguished researcher recognized among the top 2% of scientists globally in road safety.
 
@@ -164,8 +169,8 @@ I am driven to analyze large-scale traffic data to uncover patterns that pave th
 
 🔗 **Connect & Explore:**
 * **Email:** [junjie_hu@csu.edu.cn](mailto:junjie_hu@csu.edu.cn)
-* **WeChat:** [Scan QR Code](../images/wechat.jpg) 
-* **Curriculum Vitae:** [Download My CV](../assets/JunjieHu_CV.pdf) 
+* **WeChat:** [Scan QR Code]({{ "/images/wechat.jpg" | relative_url }}) 
+* **Curriculum Vitae:** [Download My CV]({{ "/assets/JunjieHu_CV.pdf" | relative_url }}) 
 
 ## Experience 💼
 
@@ -266,3 +271,7 @@ I am driven to analyze large-scale traffic data to uncover patterns that pave th
     </details>
 
 </div>
+
+<!-- ================= 可选：如果 GitHub Pages 或构建环境禁用了内联脚本，请把上面的 <script> 内容放到 /assets/js/lang-toggle.js 中，并在你的全局布局里引入：
+<script src="{{ "/assets/js/lang-toggle.js" | relative_url }}" defer></script>
+-->
