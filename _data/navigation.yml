@@ -2,7 +2,10 @@
 main:
  # - title: "Publications"
  #    url: /publications/
-
+ - title: "Home"
+  url: "/"
+- title: "中文"
+  url: "/zh/"
  #  - title: "Talks"
  #    url: /talks/    
 
