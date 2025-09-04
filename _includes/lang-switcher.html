@@ -1,0 +1,9 @@
+<!-- _includes/lang-switcher.html -->
+{% assign alt_url = page.alternate | default: '/' %}
+<div class="lang-switcher" style="display:inline-block;">
+  {% if page.lang == "zh-CN" or page.lang == "zh" %}
+    <a href="{{ alt_url | relative_url }}" title="Switch to English">English</a>
+  {% else %}
+    <a href="{{ alt_url | relative_url }}" title="切换到中文">中文</a>
+  {% endif %}
+</div>
