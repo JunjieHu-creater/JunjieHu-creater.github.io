@@ -10,18 +10,18 @@ redirect_from:
 ---
 
 <style>
-/* 按钮样式（固定在右上角） */
+/* 按钮样式 */
 .lang-switch {
   position: fixed;
   top: 12px;
   right: 12px;
-  z-index: 99999;
+  z-index: 9999;
   background: #fff;
-  padding: 4px 8px;
+  padding: 6px 10px;
   border-radius: 6px;
   border: 1px solid #ddd;
 }
-.lang-switch .lang-btn {
+.lang-btn {
   margin: 0 4px;
   padding: 2px 6px;
   font-size: 14px;
@@ -30,19 +30,17 @@ redirect_from:
   border-radius: 4px;
   background: #f9f9f9;
 }
-.lang-switch .lang-btn:hover { background: #eee; }
+.lang-btn:hover {
+  background: #eee;
+}
 
-/* 默认：显示中文，隐藏英文 */
-.lang-content .lang-zh { display: block; }
-.lang-content .lang-en { display: none; }
+/* 默认显示中文 */
+#zh { display: block; }
+#en { display: none; }
 
-/* 当 URL 是 #en 时：隐藏中文，显示英文 */
-#en:target ~ .lang-content .lang-zh { display: none; }
-#en:target ~ .lang-content .lang-en { display: block; }
-
-/* 当 URL 是 #zh 时：显示中文，隐藏英文（显式声明以覆盖上一组规则） */
-#zh:target ~ .lang-content .lang-zh { display: block; }
-#zh:target ~ .lang-content .lang-en { display: none; }
+/* 切换到英文 */
+#en:target { display: block; }
+#en:target ~ #zh { display: none; }
 </style>
 
 <div class="lang-switch">
@@ -50,14 +48,8 @@ redirect_from:
   <a href="#en" class="lang-btn">English</a>
 </div>
 
-<!-- 关键：把锚点放在 .lang-content 之前，供 :target 选择 -->
-<a id="zh"></a>
-<a id="en"></a>
-
-<div class="lang-content">
-
 <!-- ================= 中文内容 ================= -->
-<div class="lang-zh">
+<div id="zh">
 
 👋 你好！我是 **胡俊杰 (Junjie Hu)**，中南大学运输工程学院硕士二年级研究生，导师是 [Jaeyoung Jay Lee 教授](https://www.researchgate.net/profile/Jaeyoung-Lee-26)。  
 
@@ -158,52 +150,46 @@ redirect_from:
 
 </div>
 
+
 <!-- ================= 英文内容 ================= -->
-<div class="lang-en">
+<div id="en">
 
-👋 Hello! I'm **Junjie Hu (胡俊杰)**, a second-year Master's student at the [School of Transport & Transportation Engineering](https://stte.csu.edu.cn/), [Central South University](https://www.csu.edu.cn/) (CSU). I have the privilege of being advised by [Prof. Jaeyoung Jay Lee](https://www.researchgate.net/profile/Jaeyoung-Lee-26), a distinguished researcher recognized among the top 2% of scientists globally in road safety.
+👋 Hello! I'm **Junjie Hu (胡俊杰)**, a second-year Master's student at the [School of Transport & Transportation Engineering](https://stte.csu.edu.cn/), [Central South University](https://www.csu.edu.cn/).  
 
-My research passion lies at the dynamic intersection of:
-* 📊 **Traffic Spatio-Temporal Data Analysis**
-* 🚗 **Vehicular Decision-Making & Control**
-* 🧠 **Deep Learning Applications in Transportation Systems**
-* 🛡️ **Advanced Traffic Safety Methodologies**
+My research passion lies at the intersection of:  
+* 📊 **Traffic Spatio-Temporal Data Analysis**  
+* 🚗 **Vehicular Decision-Making & Control**  
+* 🧠 **Deep Learning Applications in Transportation Systems**  
+* 🛡️ **Advanced Traffic Safety Methodologies**  
 
-I am driven to analyze large-scale traffic data to uncover patterns that pave the way for safer, more intelligent, and sustainable transportation systems. I am always enthusiastic about collaborating on innovative ideas to advance our collective impact.
+I am driven to analyze large-scale traffic data to uncover patterns that pave the way for safer, more intelligent, and sustainable transportation systems.  
 
-🔗 **Connect & Explore:**
-* **Email:** [junjie_hu@csu.edu.cn](mailto:junjie_hu@csu.edu.cn)
-* **WeChat:** [Scan QR Code]({{ "/images/wechat.jpg" | relative_url }}) 
-* **Curriculum Vitae:** [Download My CV]({{ "/assets/JunjieHu_CV.pdf" | relative_url }}) 
+🔗 **Connect & Explore:**  
+* **Email:** [junjie_hu@csu.edu.cn](mailto:junjie_hu@csu.edu.cn)  
+* **WeChat:** [Scan QR Code]({{ "/images/wechat.jpg" | relative_url }})  
+* **Curriculum Vitae:** [Download My CV]({{ "/assets/JunjieHu_CV.pdf" | relative_url }})  
+
+---
 
 ## Experience 💼
 
 ### Education
-* **Master of Engineering, Transportation Engineering**
-    * *School of Transportation Engineering, Central South University*
-    * *Changsha, China*
-    * *September 2023 - Present*
-
-* **Bachelor of Engineering, Logistics Engineering**
-    * *School of Transportation Engineering, Central South University*
-    * *Changsha, China*
-    * *September 2019 - June 2023*
+* **Master of Engineering, Transportation Engineering** — *Central South University, Changsha, China* (September 2023 - Present)  
+* **Bachelor of Engineering, Logistics Engineering** — *Central South University, Changsha, China* (September 2019 - June 2023)  
 
 ### Professional Experience
-* **Business Risk Modeling Intern**
-    * *Magic Engine Technology Co., Ltd., Shenzhen, China*
-    * *July 2024 - September 2024*
-    * Assisted in developing and validating credit risk models for bank partners using Python (Pandas, Scikit-learn).
-    * Pre-processed large-scale transaction data and engineered features to improve model accuracy.
-    * Contributed to a risk analysis report that provided data-driven insights for business strategy.
+* **Business Risk Modeling Intern** — *Magic Engine Technology Co., Ltd., Shenzhen, China* (July 2024 - September 2024)  
+  - Assisted in developing and validating credit risk models for bank partners using Python.  
+  - Pre-processed large-scale transaction data and engineered features.  
+  - Contributed to risk analysis reports supporting business strategy.  
 
 ### Volunteer & Community Engagement
-* **Volunteer Researcher**
-    * *Changsha Accessibility Enhancement Promotion Association, Changsha, Hunan, China*
-    * *March 2025 - June 2025*
-    * Investigated transportation barriers for people with disabilities through field visits and surveys.
-    * Co-developed a crowdsourced mapping platform for accessible facilities.
-    * Project Demo: [View Live Project](https://junjiehu.pythonanywhere.com/)
+* **Volunteer Researcher** — *Changsha Accessibility Enhancement Promotion Association, Changsha, China* (March 2025 - June 2025)  
+  - Investigated transportation barriers for people with disabilities.  
+  - Co-developed a crowdsourced mapping platform for accessible facilities.  
+  - Project Demo: [View Live Project](https://junjiehu.pythonanywhere.com/)  
+
+---
 
 ## Publications 📄
 *(Names in **bold** indicate my authorship)*
@@ -272,7 +258,7 @@ I am driven to analyze large-scale traffic data to uncover patterns that pave th
     <details>
     <summary>📝 <b>My Role (Click to expand)</b></summary>
     <em>Contributed to investigating K-car crash injury severity using a random parameter bivariate probit models with heterogeneity in means.</em>
-    </details>
+  </details>
 
 </div>
 
