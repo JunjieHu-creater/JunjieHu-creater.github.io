@@ -9,51 +9,49 @@ redirect_from:
   - /about.html
 ---
 
-<!-- ================= 样式与切换按钮 ================= -->
 <style>
-.lang-en { display: none; }
-.lang-zh { display: block; }
+/* 按钮样式 */
+.lang-switch {
+  position: fixed;
+  top: 12px;
+  right: 12px;
+  z-index: 99999;
+  background: #fff;
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+.lang-btn {
+  margin: 0 4px;
+  padding: 2px 6px;
+  font-size: 14px;
+  text-decoration: none;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  background: #f9f9f9;
+}
+.lang-btn:hover {
+  background: #eee;
+}
 
-:root[data-lang="en"] .lang-en { display: block; }
-:root[data-lang="en"] .lang-zh { display: none; }
+/* 默认：显示中文、隐藏英文 */
+.lang-section { display: none; }
+.lang-section#zh { display: block; }
 
-.lang-switch { position: fixed; top: 12px; right: 12px; z-index: 9999; font-family: system-ui; }
-.lang-switch button { margin-left: 6px; padding: 6px 10px; border-radius: 6px; border: 1px solid #ddd; background: white; cursor: pointer; }
-.lang-switch button.active { border-color: #4183C4; font-weight: 600; }
-
-/* 兼容无 JS 的情况，默认中文 */
-html:not([data-lang]) .lang-zh { display: block; }
-html:not([data-lang]) .lang-en { display: none; }
+/* 如果 URL 有 #en，就显示英文、隐藏中文 */
+:target ~ .lang-content #zh { display: none; }
+:target ~ .lang-content #en { display: block; }
 </style>
 
 <div class="lang-switch">
-  <button class="lang-btn" data-lang="zh" type="button">中文</button>
-  <button class="lang-btn" data-lang="en" type="button">English</button>
+  <a href="#zh" class="lang-btn">中文</a>
+  <a href="#en" class="lang-btn">English</a>
 </div>
 
-<script>
-(function(){
-  function setLang(lang){
-    document.documentElement.setAttribute('data-lang', lang);
-    document.documentElement.lang = (lang === 'en' ? 'en-US' : 'zh-CN');
-    try { localStorage.setItem('siteLang', lang); } catch(e) {}
-    document.querySelectorAll('.lang-btn').forEach(b => {
-      b.classList.toggle('active', b.dataset.lang === lang);
-    });
-  }
-  document.addEventListener('DOMContentLoaded', function(){
-    var saved = 'zh';
-    try { saved = localStorage.getItem('siteLang') || 'zh'; } catch(e) {}
-    setLang(saved);
-    document.querySelectorAll('.lang-btn').forEach(btn => {
-      btn.addEventListener('click', function(){ setLang(this.dataset.lang); });
-    });
-  });
-})();
-</script>
+<div class="lang-content">
 
 <!-- ================= 中文内容 ================= -->
-<div class="lang-zh" markdown="1">
+<div id="zh" class="lang-section">
 
 👋 你好！我是 **胡俊杰 (Junjie Hu)**，中南大学运输工程学院硕士二年级研究生，导师是 [Jaeyoung Jay Lee 教授](https://www.researchgate.net/profile/Jaeyoung-Lee-26)。  
 
@@ -155,7 +153,7 @@ html:not([data-lang]) .lang-en { display: none; }
 </div>
 
 <!-- ================= 英文内容 ================= -->
-<div class="lang-en" markdown="1">
+ <div id="en" class="lang-section">
 
 👋 Hello! I'm **Junjie Hu (胡俊杰)**, a second-year Master's student at the [School of Transport & Transportation Engineering](https://stte.csu.edu.cn/), [Central South University](https://www.csu.edu.cn/) (CSU). I have the privilege of being advised by [Prof. Jaeyoung Jay Lee](https://www.researchgate.net/profile/Jaeyoung-Lee-26), a distinguished researcher recognized among the top 2% of scientists globally in road safety.
 
