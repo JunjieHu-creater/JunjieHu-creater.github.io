@@ -8,5 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-## This site has moved. Please visit the new website at: [website] (https://junjiehu-creater.github.io/junjiehuits/frontend/index.html)
-This site has moved. Please visit the new website at: [website] (https://junjiehu-creater.github.io/junjiehuits/frontend/index.html)
+## This site has moved. Please visit the new website at: [website](https://junjiehu-creater.github.io/junjiehuits/frontend/index.html)
